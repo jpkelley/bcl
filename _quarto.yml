@@ -1,13 +1,40 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "bcl"
+  title: ""
+  announcement:
+    # Your HTML content (logo left, text right)
+    content: |
+      <div class="banner-content">
+        <img src="images/logo_BCL_2.jpg" class="banner-logo" alt="Logo">
+        <div class="banner-text">
+          <strong>Behavioral Complexity Lab</strong><br>
+          University of Wyoming
+        </div>
+      </div>
+    position: above-navbar
   navbar:
     left:
+      - href: "#"
+        icon: ""                # we’ll override with an <img> in content below
+        text: |
+          <img src="images/bcl_logo_trans.png" class="navbar-logo" alt="Logo">
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "home"
+      - href: people.qmd
+        text: "people"
+      - href: research.qmd
+        text: "research"
+      - href: publications.qmd
+        text: "publications"
+      - href: output.qmd
+        text: "output"
+      - href: blog.qmd
+        text: "blog"
+      - href: about.qmd
+        text: "about"
 
 format:
   html:
@@ -16,4 +43,6 @@ format:
     toc: true
 
 editor: visual
+
+
 
