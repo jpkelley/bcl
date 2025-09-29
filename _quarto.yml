@@ -1,13 +1,29 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "bcl"
+  title: ""
   navbar:
     left:
+      - href: "#"
+        icon: ""                # we’ll override with an <img> in content below
+        text: |
+          <img src="images/bcl_logo_trans.png" class="navbar-logo" alt="Logo">
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "home"
+      - href: people.qmd
+        text: "people"
+      - href: research.qmd
+        text: "research"
+      - href: publications.qmd
+        text: "publications"
+      - href: output.qmd
+        text: "output"
+      - href: blog.qmd
+        text: "blog"
+      - href: about.qmd
+        text: "about"
 
 format:
   html:
@@ -16,4 +32,6 @@ format:
     toc: true
 
 editor: visual
+
+
 

@@ -1,5 +1,5 @@
 ---
-title: "bcl"
+title: ""
 ---
 
 This is a Quarto website.
