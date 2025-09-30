@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Beh"
+  navbar: 
+    left:
+      - href: index.qmd
+        text: "home"
+      - href: people.qmd
+        text: "people"
+      - href: research.qmd
+        text: "research"
+      - href: publications.qmd
+        text: "publications"
+      - href: funding.qmd
+        text: "funding"
+      - href: about.qmd
+        text: "about"
+    right:
+      - href: https://facebook.com
+        icon: facebook    # Quarto knows some built-in icons
+      - href: https://blueskyweb.xyz
+        text: Bluesky     # or provide your own icon/text
+
+format:
+  html:
+    css: styles.css
+    toc: false
+    favicon: images/favicon.ico
+
+execute:
+  freeze: auto

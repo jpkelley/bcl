@@ -1,0 +1,193 @@
+/* ===== General Layout ===== */
+body {
+  margin: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+/* ===== Container 1: Header ===== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left img {
+  height: 75px;
+  display: block;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.header-right h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #377eb8; /* medium blue */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header-right h1::first-letter {
+  font-size: 2rem;
+}
+
+.header-right p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* ===== Container 2: NavBar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+}
+
+.nav-left a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-left a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+}
+
+.nav-right a {
+  margin-left: 1rem;
+}
+
+.nav-right img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* Adjust navbar logo height */
+.navbar-brand img {
+  height: 75px;     /* your desired height */
+  width: auto;
+  margin-right: 10px;
+}
+
+/* ===== Container 3 & 4: Mission and News ===== */
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.flex-logo {
+  flex: 0 0 140px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 3;
+  padding-right: 12px;
+}
+.flex-logo img {
+  max-height: 120px;
+  width: auto;
+}
+
+.flex-bg {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.flex-text {
+  flex: 1;
+  padding: 1rem;
+  z-index: 2;
+  background-color: white;
+}
+
+.flex-image {
+  flex: 0 0 36%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  padding-left: 12px;
+}
+.flex-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pale backgrounds */
+.mission-bg { background-color: #e6f0fa; } /* pale blue */
+.news-bg    { background-color: #fff3e0; } /* pale orange */
+
+/* ===== Container 5: Projects ===== */
+.projects {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.project-box {
+  flex: 1;
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.project-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+/* ===== Container 6: Footer ===== */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .container { width: 92%; }
+  .flex-container { flex-direction: column; }
+  .flex-logo { justify-content: center; padding-bottom: 8px; }
+  .flex-bg { left: 0; right: 0; top: 0; bottom: 0; border-radius: 0; }
+  .flex-text, .flex-image { width: 100%; padding-left: 0; }
+  .projects { flex-direction: column; }
+  .project-box { width: 100%; }
+  .header { flex-direction: column; text-align: center; gap: 8px; }
+  .navbar { flex-direction: column; gap: 8px; }
+}
