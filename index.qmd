@@ -1,5 +1,6 @@
 ---
 title: ""
+<<<<<<< HEAD
 format: html
 ---
 
@@ -52,3 +53,14 @@ format: html
     <p>Copyright 2025 Behavioral Complexity Lab (created by hand with HTML5, CSS, and Quarto)</p>
   </div>
 </footer>
+=======
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+>>>>>>> e29dc9a7cd59dffbe5cd10de40de91013649e0a9

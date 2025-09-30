@@ -3,9 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Beh"
-  navbar: 
+  title: ""
+  favicon: images/favicon-32x32.ico
+
+  navbar:
     left:
+      - href: "#"
+        icon: ""                # we’ll override with an <img> in content below
+        text: |
+          <img src="images/bcl_logo_trans.png" class="navbar-logo" alt="Logo">
       - href: index.qmd
         text: "home"
       - href: people.qmd
@@ -28,7 +34,5 @@ format:
   html:
     css: styles.css
     toc: false
-    favicon: images/favicon.ico
 
-execute:
-  freeze: auto
+

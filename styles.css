@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ===== General Layout ===== */
 body {
   margin: 0;
@@ -190,4 +191,16 @@ body {
   .project-box { width: 100%; }
   .header { flex-direction: column; text-align: center; gap: 8px; }
   .navbar { flex-direction: column; gap: 8px; }
+=======
+/* make sure your navbar stays white */
+.navbar {
+  background-color: white !important;
+}
+
+/* size your logo in the navbar */
+.navbar-logo {
+  height: 80px;    /* adjust as needed */
+  width: auto;
+  margin-left: 0.5rem;
+>>>>>>> e29dc9a7cd59dffbe5cd10de40de91013649e0a9
 }

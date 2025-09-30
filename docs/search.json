@@ -2,15 +2,25 @@
   {
     "objectID": "index.html",
     "href": "index.html",
+<<<<<<< HEAD
     "title": "Beh",
     "section": "",
     "text": "&lt;h2&gt;Our Mission&lt;/h2&gt;\n&lt;p&gt;Short text about the lab mission goes here…&lt;/p&gt;\n\n\n\n\n\n\n&lt;h2&gt;Latest Lab News&lt;/h2&gt;\n&lt;p&gt;Some news text here…&lt;/p&gt;\n\n\n\n\n\n\n&lt;h3&gt;Project 1&lt;/h3&gt;\n&lt;p&gt;Short project description…&lt;/p&gt;\n&lt;img src=\"images/project1.jpg\" alt=\"Project 1 Image\"&gt;\n\n\n&lt;h3&gt;Project 2&lt;/h3&gt;\n&lt;p&gt;Short project description…&lt;/p&gt;\n&lt;img src=\"images/project2.jpg\" alt=\"Project 2 Image\"&gt;\n\n\n&lt;h3&gt;Project 3&lt;/h3&gt;\n&lt;p&gt;Short project description…&lt;/p&gt;\n&lt;img src=\"images/project3.jpg\" alt=\"Project 3 Image\"&gt;\n\n\n\n\n\n&lt;p&gt;123 Science Drive, University of Wyoming, Laramie WY&lt;/p&gt;\n\n\n&lt;p&gt;Copyright 2025 Behavioral Complexity Lab (created by hand with HTML5, CSS, and Quarto)&lt;/p&gt;"
+=======
+    "title": "",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+>>>>>>> e29dc9a7cd59dffbe5cd10de40de91013649e0a9
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
+<<<<<<< HEAD
     "text": "About this site\n\n\n[1] 2"
+=======
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+>>>>>>> e29dc9a7cd59dffbe5cd10de40de91013649e0a9
   }
 ]
