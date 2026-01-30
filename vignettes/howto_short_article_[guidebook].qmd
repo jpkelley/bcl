@@ -1,0 +1,118 @@
+---
+title: "Research Paper Outline"
+title-block-banner: ../images/headers/new_website_header_01.jpg
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-depth: 3
+---
+
+# Introduction
+
+## Background
+- **Sentence 1:** Summarize previous relevant research.  
+- **Sentence 2:** Point out limitations or gaps in prior studies.  
+- **Sentence 3:** Introduce the specific research question or hypothesis.  
+
+## Objective and Approach
+- **Sentence 1:** Clearly state the study's objective.  
+- **Sentence 2:** Briefly outline the methodology or approach.  
+- **Sentence 3:** Emphasize the study's potential impact or significance.  
+
+# Methods
+
+## Purpose
+Detail the procedures/materials used to interpret the data and ensure reproducibility.  
+
+## Scope
+Approximate 800-1200 words, 4-6 paragraphs.  
+
+## Structure
+
+### Paragraph 1: Study Design Overview
+- **Sentence 1:** Describe the study type (e.g., experimental, observational).  
+- **Sentence 2:** Specify the study setting or environment.  
+- **Sentence 3:** Outline the timeline or duration.  
+
+### Paragraph 2: Participants / Samples
+- **Sentence 1:** Describe the selection criteria.  
+- **Sentence 2:** Provide demographic or characteristic information about study population.  
+
+### Paragraph 3: Data Collection Methods
+- **Sentence 1:** Detail instruments or tools used.  
+- **Sentence 2:** Explain procedures or protocols followed.  
+- **Sentence 3:** Note any calibrations or standardizations.  
+
+### Paragraph 4: Data Analysis Techniques
+- **Sentence 1:** Specify statistical tests or models applied.  
+- **Sentence 2:** Define significance levels or confidence intervals.  
+- **Sentence 3:** Mention software or tools used for analysis.  
+
+### Paragraph 5: Ethical Approvals
+Include information about ethical approvals and permits (or at end of paper).  
+
+# Results
+
+## Purpose
+Present the findings (tables, graphics) without interpretation.  
+
+## Scope
+Approximate 600-1000 words, 3-5 paragraphs.  
+
+## Structure
+
+### Paragraph 1: Primary Outcomes
+- **Sentence 1:** State the main result.  
+- **Sentence 2:** Provide supporting data or statistics.  
+- **Sentence 3:** Refer to relevant tables or figures.  
+
+### Paragraph 2: Secondary Outcomes
+- **Sentence 1:** Describe additional significant findings.  
+- **Sentence 2:** Offer corresponding data or metrics.  
+- **Sentence 3:** Reference supplementary materials if applicable.  
+
+### Paragraph 3: Exploratory / Unexpected Results
+- **Sentence 1:** Highlight unanticipated findings.  
+- **Sentence 2:** Provide relevant data.  
+- **Sentence 3:** Suggest potential implications or need for further investigation.  
+
+# Discussion
+
+## Purpose
+Interpret the results, compare with existing literature, discuss implications, suggest future directions for research.  
+
+## Scope
+Approximately 800-1000 words, 4-6 paragraphs.  
+
+## Structure
+
+### Paragraph 1: Summary of Key Findings
+- **Sentence 1:** Restate the study’s main finding(s) concisely.  
+- **Sentence 2:** Emphasize the significance of these findings.  
+- **Sentence 3:** Connect findings to the research question.  
+
+### Paragraph 2: Comparison with Previous Work
+- **Sentence 1:** Relate results to prior studies.  
+- **Sentence 2:** Highlight agreements with existing literature.  
+- **Sentence 3:** Point out contradictions or novel contributions.  
+
+### Paragraph 3: Mechanisms & Interpretation
+- **Sentence 1:** Explain why these results occurred.  
+- **Sentence 2:** Suggest possible biological, chemical, or physical mechanisms.  
+- **Sentence 3:** Consider alternative explanations (be objective and self-critical).  
+
+### Paragraph 4: Limitations of the Study
+- **Sentence 1:** Acknowledge potential weaknesses (e.g., sample size, methods).  
+- **Sentence 2:** Discuss how limitations might affect interpretation.  
+- **Sentence 3:** Suggest how future studies could address these issues.  
+
+### Paragraph 5: Broader Implications
+- **Sentence 1:** Explain how the findings impact the field.  
+- **Sentence 2:** Discuss potential applications in science, policy, or beyond.  
+- **Sentence 3:** Connect to real-world challenges or future advancements.  
+
+### Paragraph 6: Future Research Directions
+- **Sentence 1:** Identify open questions or unresolved issues.  
+- **Sentence 2:** Propose follow-up experiments or studies.  
+- **Sentence 3:** End with a strong take-home message.  

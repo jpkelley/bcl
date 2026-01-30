@@ -1,66 +1,30 @@
 ---
-title: ""
-<<<<<<< HEAD
-format: html
+title: "BCL"
+title-block-banner: images/headers/new_website_header_01.jpg
+editor_options: 
+  chunk_output_type: html
+
+format:
+  html: 
+    sidebar: false
+    css: [theme.css]
 ---
 
-<!-- Container 1: Header is the Quarto navbar/logo automatically -->
+# **What we do**
 
-<!-- Container 3: Mission -->
-<div class="container mission">
-  <img class="toucan" src="images/toucan.png" alt="Secondary Lab Logo">
-  <div class="mission-text">
-    <h2>Our Mission</h2>
-    <p>Short text about the lab mission goes here…</p>
-  </div>
-  <img class="mission-image" src="images/mission.jpg" alt="Mission Image">
-</div>
+The Behavioral Complexity Lab studies how animals sense, communicate, and make decisions in complex ecological and social systems by pairing intensive fieldwork with transparent, reproducible analytical workflows. Working primarily with wild populations, we combine detailed behavioral and acoustic observations with custom-built sensors, bioacoustics, information theory, network analysis, and AI-assisted methods to quantify how information is generated, transmitted, and transformed in real ecological contexts.
 
-<!-- Container 4: Latest News -->
-<div class="container news">
-  <div class="news-text">
-    <h2>Latest Lab News</h2>
-    <p>Some news text here…</p>
-  </div>
-  <img class="news-image" src="images/news.jpg" alt="News Image">
-</div>
+A central focus of the lab is understanding how environmental constraints, social interactions, and measurement choices jointly shape observed patterns of behavior, biodiversity, and community organization. In parallel, we critically examine how analytical decisions, bias, and reproducibility affect scientific inference, developing workflows and teaching tools that improve traceability, robustness, and interpretability in ecological research.
 
-<!-- Container 5: Projects -->
-<div class="container projects">
-  <div class="project">
-    <h3>Project 1</h3>
-    <p>Short project description…</p>
-    <img src="images/project1.jpg" alt="Project 1 Image">
-  </div>
-  <div class="project">
-    <h3>Project 2</h3>
-    <p>Short project description…</p>
-    <img src="images/project2.jpg" alt="Project 2 Image">
-  </div>
-  <div class="project">
-    <h3>Project 3</h3>
-    <p>Short project description…</p>
-    <img src="images/project3.jpg" alt="Project 3 Image">
-  </div>
-</div>
 
-<!-- Container 6: Footer -->
-<footer class="footer">
-  <div class="footer-left">
-    <p>123 Science Drive, University of Wyoming, Laramie WY</p>
-  </div>
-  <div class="footer-right">
-    <p>Copyright 2025 Behavioral Complexity Lab (created by hand with HTML5, CSS, and Quarto)</p>
-  </div>
-</footer>
-=======
----
+::: {.callout-tip icon=false collapse=false}
+## News from the lab
 
-This is a Quarto website.
+* [Jan. 2026] Zach Holmes (PhD student) received word from Titley Scientific that they will support his work deploying recording units at his field site in Hawaii. 
+* [Jan. 2026] Michael Castaño (MS student) begins working on novel applications of AI in tropical ecosystems (funded by UW School of Computing)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::
 
-```{r}
-1 + 1
-```
->>>>>>> e29dc9a7cd59dffbe5cd10de40de91013649e0a9
+
+
+

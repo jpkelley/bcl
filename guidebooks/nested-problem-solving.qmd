@@ -1,0 +1,105 @@
+---
+title: "NESTED: A Structured Framework for Behavioral-Ecology Research"
+image: "guidebook_images/seek_266921.jpg"
+description: "Need a quick plan for designing a project?"
+categories: ["writing"]
+href: "guidebooks/nested-problem-solving.html"
+order: 1
+format:
+  html:
+    toc: TRUE
+---
+
+## NESTED: A Structured Framework for Behavioral-Ecology Research
+
+In behavioral ecology, understanding interactions between species requires more than just statistical analysis. Passive acoustic recordings, camera traps, or observational data provide rich datasets—but they are ften noisy, incomplete, and influenced by complex ecological factors. The **NESTED framework** offers a logical, repeatable pipeline for tackling questions that integrate statistical modeling with ecological validation, always grounded in natural history knowledge. This is not anything novel; it just helps to have a framework for keeping our thoughts in order!
+
+
+::: {.callout-note icon=false collapse=true}
+## **1. Name the Alternative Hypotheses**
+
+The first step is to explicitly define the competing hypotheses that might explain the patterns we observe:
+
+-   What are the plausible ways one species could affect another?\
+-   Could observed patterns result from confounding factors such as habitat, season, or detectability?\
+-   Which hypotheses are consistent with known natural-history traits (activity patterns, response times, social behavior)?
+
+By naming the alternatives upfront, we create a clear roadmap for testing and ensure that subsequent modeling is **hypothesis-driven and ecologically informed**.
+:::
+
+::: {.callout-note icon=false collapse=true}
+## **2. Embed Natural History**
+
+Next, we explicitly embed the the natural history and ecology of the study species (or group of species) into the study design and data processing:
+
+-   Select temporal and spatial scales that match behavior (e.g., 10-second bins for vocal interactions). This is where one could disgree with Levin 1992.\
+-   Select auxiliary data (temperature, light, noise, location) that could be relevant to your study questions.\
+-   Plan manipulative or observational experiments that are ethical and feasible, accounting for the natural history and ecology of the species.
+
+Together, these guarantee that the dataset captures the **variation that actually matters in nature**.
+:::
+
+::: {.callout-note icon=false collapse=true}
+## **3. Structured Data Collection and Processing**
+
+I transform raw observations into features suitable for analysis:
+
+-   For acoustic data, detect and classify calls to produce timestamped event tables.\
+-   Aggregate into time bins, calculating call rates, durations, spectral properties, or other biologically relevant measures.\
+-   Create **time-lagged features** to capture potential delayed responses between species.
+
+A well-structured dataset is essential for reproducible and interpretable results.
+:::
+
+::: {.callout-note icon=false collapse=true}
+## **4. Test with Models**
+
+Statistical models quantify associations and potentially causal relationships while respecting ecological realism:
+
+-   Begin with exploratory analysis (descriptive stats, cross-correlation) to understand your data.\
+-   Use hierarchical or time-series models (GLMMs, Bayesian state-space models) to account for variation among sites, recorders, or individuals.\
+-   Incorporate observation error where detection is imperfect.\
+-   Incorporate causal structures and modeling (Bayesian Dynamic Causal Models) into your workflow.\
+-   Examine biologically plausible lagged effects to assess temporal dynamics.
+
+This step separates **ecological signal from observation noise**.
+:::
+
+::: {.callout-note icon=false collapse=true}
+## **5. Ecological Validation**
+
+Predictions are only meaningful if validated against nature:
+
+-   Use independent field observations or ethical experiments to check model outputs.\
+-   Compare patterns with known natural history to ensure plausibility.\
+-   Perform internal validation through cross-validation, simulation, and residual diagnostics.
+
+Validation ensures that statistical associations reflect **true ecological processes**.
+:::
+
+::: {.callout-note icon=false collapse=true}
+## **6. Deliver & Iterate**
+
+Finally, I communicate and refine findings to produce a deliverable (and then reiterate!):
+
+-   Interpret model results in ecological terms (e.g., probability change in bird song following a monkey call).\
+-   Report uncertainty with credible or prediction intervals.\
+-   Iterate the model and study design based on validation feedback, refining features, lag windows, or model structure.
+
+This iterative approach produces **robust, biologically meaningful insights** that can guide conservation, management, or further experimentation.
+:::
+
+## **Example Application**
+
+Suppose we want to know whether monkey howls suppress bird song. Using the NESTED framework:
+
+1.  **Name the Alternative Hypotheses:** Identify plausible explanations and competing mechanisms, such as direct suppression, temporal avoidance, or coincidental activity overlap.
+2.  **Embed Natural History:** Set recorder spacing and bin sizes according to species’ movement behavior; ensure that recorder setting are appropriate for vocal behavior.
+3.  **Structured Data Collection and Processing:** Extract call counts and spectral features; create time-lagged predictors.
+4.  **Test with Models:** Fit hierarchical time-series models with detection uncertainty.
+5.  **Ecological Validation:** Compare predictions with field playback experiments and observations.
+6.  **Deliver & Iterate:** Report effect sizes (probability of bird song change per time lag) and refine with new data; devise new and improved study approaches.
+
+## **Conclusion**
+
+The NESTED framework combines **statistical rigor with deep ecological understanding**, providing a repeatable approach for behavioral-ecology research. By explicitly **naming alternative hypotheses** and embedding natural history at every step, models are not only statistically sound but also ecologically meaningful, leading to actionable insights about species interactions in the wild.

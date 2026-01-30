@@ -1,0 +1,14 @@
+---
+title: "Austin Barth"
+name: "Austin Barth"
+image: "/images/profile_pics/austin_barth.jpg"
+research: "**Research subject:** Contest assessment strategies and memory in chestnut-backed antbirds (Poliocrania exsul) in Panama"
+location: "**Research location:** Panama"
+dates: "**Dates:** 2023-present"
+category: "Current"
+category_order: "4"
+format:
+  html:
+    toc: FALSE
+---
+

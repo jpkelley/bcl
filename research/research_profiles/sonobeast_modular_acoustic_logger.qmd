@@ -1,0 +1,12 @@
+---
+title: "sonoBEAST modular acoustic logger"
+image: "../images/card_pics/fabrication.jpg"
+description: "The sonoBEAST project develops and tests lightweight, field-friendly acoustic sensors and deep-learning tools to detect, identify, and analyze animal sounds in biodiverse tropical forests. By mapping vocal networks, it reveals behavioral complexity, species interactions, and ecological change."
+categories: ["Deep Tropics Project", "Animal Communication & Contest Dynamics"]
+contributors: "Michael Castano"
+feature_order: "b"
+format:
+  html:
+    toc: FALSE
+---
+

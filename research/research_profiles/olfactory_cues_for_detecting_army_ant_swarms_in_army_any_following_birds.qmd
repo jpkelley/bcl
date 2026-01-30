@@ -1,0 +1,12 @@
+---
+title: "Olfactory cues for detecting army-ant swarms in army any following birds"
+image: "../images/card_pics/ghet_001.jpg"
+description: "We test whether tropical birds can smell army-ant presence and activity. Controlled field experiments assess whether olfactory cues supplement auditory and visual signals in locating foraging opportunities."
+categories: ["Panama PLUMAS Project", "Animal Communication & Contest Dynamics"]
+contributors: "Michael Castano"
+feature_order: "e"
+format:
+  html:
+    toc: FALSE
+---
+

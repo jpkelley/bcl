@@ -1,0 +1,23 @@
+---
+title: "BCL Guidebooks"
+show-title: TRUE
+title-block-banner: images/headers/new_website_header_01.jpg
+format: html
+css: [theme.css, styles.css]
+listing:
+  type: grid
+  contents: guidebooks
+  sort: order
+  categories: true
+  fields: [image, title, description]
+  grid-columns: 3
+  image-height: 100px
+  page-size: 0
+---
+
+# Guidebooks
+
+The work of the Behavioral Complexity Lab and its members is only possible through the support of the following agencies, organizations, and programs. The BCL has brought in \>\$6.6M in grant funding.
+
+::: mt-4
+:::

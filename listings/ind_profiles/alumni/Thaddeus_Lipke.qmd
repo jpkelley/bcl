@@ -1,0 +1,14 @@
+---
+title: "Thaddeus Lipke"
+name: "Thaddeus Lipke"
+image: "/images/profile_pics/thad_lipke.jpg"
+research: "**Research subject:** Developing deep learning tools to automatically estimate network structure of avian flocks"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2019-2021"
+category: "Alumni"
+category_order: "11"
+format:
+  html:
+    toc: FALSE
+---
+

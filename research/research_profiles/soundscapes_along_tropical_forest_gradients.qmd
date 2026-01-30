@@ -1,0 +1,12 @@
+---
+title: "Soundscapes along tropical forest gradients"
+image: "../images/card_pics/spectro.jpg"
+description: "We map how biodiversity and human disturbance shape forest soundscapes. Acoustic data provide an integrative measure of ecosystem health and biotic change across tropical gradients."
+categories: ["Deep Tropics Project"]
+contributors: "Erin Stewart"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

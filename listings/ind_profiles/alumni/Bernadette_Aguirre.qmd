@@ -1,0 +1,14 @@
+---
+title: "Bernadette Aguirre"
+name: "Bernadette Aguirre"
+image: "/images/profile_pics/bernadette_aguirre.jpg"
+research: "**Research subject:** Saliance of trill rate: an experimental test in small tree finches of the Galapagos"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2023"
+category: "Alumni"
+category_order: "7"
+format:
+  html:
+    toc: FALSE
+---
+

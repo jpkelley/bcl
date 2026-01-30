@@ -1,0 +1,27 @@
+#quarto-margin-sidebar .quarto-listing-category-title {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+#quarto-margin-sidebar .quarto-listing-category {
+  font-size: 0.8rem;
+}
+
+.quarto-listing .listing-card .listing-card-title {
+  font-weight: 700;
+}
+
+/* Show full description text without truncation */
+.quarto-listing .listing-card .listing-card-text {
+  display: block;
+  white-space: normal;       /* allow line breaks */
+  overflow: visible;         /* prevent cutting off */
+  text-overflow: clip;       /* remove ellipsis */
+  max-height: none;          /* allow full height */
+}
+
+#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+  z-index: 1;
+  padding-top: 8rem;
+}

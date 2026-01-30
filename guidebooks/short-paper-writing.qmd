@@ -1,0 +1,13 @@
+---
+title: "Writing a short science paper (for those with short attention spans)"
+image: "guidebook_images/notebook.jpg"
+description: "Have a short attention span for writing and reading? Here's a sentence-by-sentence paper recipe!"
+categories: ["writing"]
+href: "guidebooks/short-paper-writing.html"
+order: 1
+format:
+  html:
+    toc: TRUE
+---
+
+This is test!

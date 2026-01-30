@@ -1,0 +1,129 @@
+:::::::::::::::::::::::::::::::: {#PAGES_CONTAINER .PAGES_CONTAINER role="main" tabindex="-1" data-main-content="true"}
+::::::::::::::::::::::::::::::: {#SITE_PAGES .JsJXaX .SITE_PAGES}
+:::::::::::::::::::::::::::::: {#nwzye .dBAkHi .theme-vars .nwzye}
+::: {.PFkO7r .wixui-page data-testid="page-bg"}
+:::
+
+:::::::::::::::::::::::::::: HT5ybB
+::::::::::::::::::::::::::: {#Containernwzye .Containernwzye .SPY_vo}
+:::::::::::::::::::::::::: {data-mesh-id="ContainernwzyeinlineContent" data-testid="inline-content"}
+::::::::::::::::::::::::: {data-mesh-id="ContainernwzyeinlineContent-gridContainer" data-testid="mesh-container-content"}
+<section id="comp-lge34d9d" class="Oqnisf comp-lge34d9d wixui-section" tabindex="-1" data-block-level-container="ClassicSection">
+
+::::: {#bgLayers_comp-lge34d9d .MW5IWV data-hook="bgLayers" data-motion-part="BG_LAYER comp-lge34d9d"}
+::: {.LWbAav .Kv1aVt data-testid="colorUnderlay"}
+:::
+
+::: {#bgMedia_comp-lge34d9d .VgO9Yg data-motion-part="BG_MEDIA comp-lge34d9d"}
+:::
+:::::
+
+::::::::::: {data-mesh-id="comp-lge34d9dinlineContent" data-testid="inline-content"}
+:::::::::: {data-mesh-id="comp-lge34d9dinlineContent-gridContainer" data-testid="mesh-container-content"}
+::: {#comp-jcfs5wbc .Z_l5lU .MMl86N .zQ9jDz .qvSjx3 .Vq6kJx .comp-jcfs5wbc .wixui-rich-text data-testid="richTextElement"}
+<h2 class="font_2 wixui-rich-text__text" dir="ltr" style="font-size:40px;" id="hawaii-vine-project">
+
+[Hawaii VINE Project]{.wixui-rich-text__text style="font-size:40px;"}
+
+</h2>
+
+<p>[​]{.wixGuard .wixui-rich-text__text}</p>
+
+<p>[Using multiple sites across the island of Oahu, the Hawaii VINE (]{.wixui-rich-text__text style="color:rgb(0, 0, 0);"}[V]{.wixui-rich-text__text style="font-weight:bold;"}ertebrate [I]{.wixui-rich-text__text style="font-weight:bold;"}ntroductions and [N]{.wixui-rich-text__text style="font-weight:bold;"}ovel [E]{.wixui-rich-text__text style="font-weight:bold;"}cosystems) Project examines \[1\] how the structure and dynamics of seed dispersal networks vary across ecological contexts, \[2\] how seed dispersal competence of non-native species varies across ecological contexts to influence ecosystem functioning, and \[3\] how ecosystem functioning is maintained across new spatial and temporal extents. </p>
+
+<p>[​]{.wixGuard .wixui-rich-text__text}</p>
+
+<p>[The Hawaiian Islands are both the extinction and invasive species capitals of the world. The result has been Hawaiian ecosystems fundamentally changed in form; that is, ecosystems replete with a mix of novel and native species. Most native Hawaiian plant species are bird-dispersed, yet no native avian dispersers remain in most Hawaiian ecosystems. Thus, ecosystem functioning will only be maintained by the handful of invasive vertebrate dispersers that now reside on the islands, most of which are birds. The Hawaii VINE Project seeks to determine how well different species of non-native birds disperse native plant species across environments, whether non-native rat species have a cumulative positive (via seed dispersal) or negative (via predation on bird seed-dispersers and/or via seed predation) impact on plant communities, and creating predictive models to be used to improve non-native plant management plans, while facilitating the recovery of native threatened, endangered, and at-risk plants. ]{.wixui-rich-text__text style="color:rgb(0, 0, 0);"}</p>
+
+<p> </p>
+
+<p>[The Hawaii VINE Project relies on extensive field-based data collection (collected year-round for four years), including diet sampling, behavioral observations of birds and rats, small mammal and bird censusing, and field experiments. We apply ecological modeling techniques such as hierarchical occupancy modeling and movement ecology models to describe and quantify seed dispersal effectiveness in novel Hawaiian communities. ]{.wixui-rich-text__text style="color:rgb(0, 0, 0);"}</p>
+:::
+
+::::: iframe
+:::: {#wrapper}
+::: {#viewport .grid}
+:::
+::::
+:::::
+
+::: {#comp-jch98sf4 .Z_l5lU .MMl86N .zQ9jDz .qvSjx3 .Vq6kJx .comp-jch98sf4 .wixui-rich-text data-testid="richTextElement"}
+<p>[Please visit and like the Hawaii VINE Project Facebook page by clicking on the graphic at right. There, you will receive notifications about field work and publications.]{.color_15 .wixui-rich-text__text}</p>
+:::
+
+::: {#comp-jch99m20 .MazNVa .comp-jch99m20 .wixui-image .rYiAuL}
+<a href="https://www.facebook.com/hawaii.vine.project/" class="j7pOnl" data-testid="linkElement" target="_blank"><img src="https://static.wixstatic.com/media/820ce4_8deb5c78c9994225a30a00a22124f9aa~mv2.png/v1/fill/w_116,h_125,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_8deb5c78c9994225a30a00a22124f9aa~mv2.png" alt="Hawaii VINE Facebook logo" id="img_comp-jch99m20" class="BI8PVQ Tj01hh" style="object-fit:cover" data-fetchpriority="high" sizes="116px" srcset="https://static.wixstatic.com/media/820ce4_8deb5c78c9994225a30a00a22124f9aa~mv2.png/v1/fill/w_116,h_125,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_8deb5c78c9994225a30a00a22124f9aa~mv2.png 1x, https://static.wixstatic.com/media/820ce4_8deb5c78c9994225a30a00a22124f9aa~mv2.png/v1/fill/w_232,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_8deb5c78c9994225a30a00a22124f9aa~mv2.png 2x" width="116" height="125"/></a>
+:::
+
+::: {#comp-jchve4t2 .Z_l5lU .ku3DBC .zQ9jDz .qvSjx3 .Vq6kJx .comp-jchve4t2 .wixui-rich-text data-testid="richTextElement"}
+<h6 class="font_6 wixui-rich-text__text" style="line-height:normal; font-size:22px;" id="collaborators">
+
+[Collaborators]{.wixui-rich-text__text style="color:#000000;"}
+
+</h6>
+
+<p>[​]{.wixGuard .wixui-rich-text__text}</p>
+
+<p>[Dr. Jeff Foster]{.wixui-rich-text__text style="font-weight:bold;"} (Northern Arizona University, NAU):[ ]{.wixui-rich-text__text style="font-weight:bold;"}[<a href="https://fozlab.weebly.com/" class="wixui-rich-text__text" target="_blank" rel="noreferrer noopener">lab website</a>]{.wixui-rich-text__text style="text-decoration:underline;"}</p>
+
+<p>[Dr. Patrick Kelley]{.wixui-rich-text__text style="font-weight:bold;"} (University of Wyoming)</p>
+
+<p>[Dr. Jinelle Sperry (]{.wixui-rich-text__text style="font-weight:bold;"}[<a href="http://www.erdc.usace.army.mil/Locations/ConstructionEngineeringResearchLaboratory.aspx" class="wixui-rich-text__text" target="_blank" rel="noreferrer noopener">ERDC-CERL; University of Illinoius</a>]{.wixui-rich-text__text style="text-decoration:underline;"}):[ ]{.wixui-rich-text__text style="font-weight:bold;"}[<a href="http://www.sperrylab.nres.illinois.edu/" class="wixui-rich-text__text" target="_blank" rel="noreferrer noopener">lab website</a>]{.wixui-rich-text__text style="text-decoration:underline;"}</p>
+
+<p>[Dr. Don Drake]{.wixui-rich-text__text style="font-weight:bold;"} ([<a href="http://www.erdc.usace.army.mil/Locations/ConstructionEngineeringResearchLaboratory.aspx" class="wixui-rich-text__text" target="_blank" rel="noreferrer noopener">University of Hawaii</a>]{.wixui-rich-text__text style="text-decoration:underline;"}): <a href="http://www.botany.hawaii.edu/people/donald-drake/" class="wixui-rich-text__text" target="_blank" rel="noreferrer noopener">[lab website]{.wixui-rich-text__text style="text-decoration:underline;"}</a></p>
+
+<p>[Rebecca Wilcox]{.wixui-rich-text__text style="font-weight:bold;"}[ (previous Ph.D. student, University of Wyoming)]{.color_15 .wixui-rich-text__text}</p>
+
+<p>[Sam Case]{.wixui-rich-text__text style="font-weight:bold;"}[ (Ph.D. student, University of Wyoming)]{.color_15 .wixui-rich-text__text}</p>
+
+<p>[Dr. Jeferson Vizentin-Bugoni ]{.wixui-rich-text__text style="font-weight:bold;"}(Universidade Federal de Pelotas)</p>
+
+<p>[Jason Gleditsch]{.wixui-rich-text__text style="font-weight:bold;"} (previous PhD student, UIUC)</p>
+
+<p>[Amy Hruska]{.wixui-rich-text__text style="font-weight:bold;"} (previous PhD student, UH)</p>
+
+<p>[​]{.wixGuard .wixui-rich-text__text}</p>
+:::
+::::::::::
+:::::::::::
+
+</section>
+
+<section id="comp-lge34d9d1" class="Oqnisf comp-lge34d9d1 wixui-section" tabindex="-1" data-block-level-container="ClassicSection">
+
+::::: {#bgLayers_comp-lge34d9d1 .MW5IWV data-hook="bgLayers" data-motion-part="BG_LAYER comp-lge34d9d1"}
+::: {.LWbAav .Kv1aVt data-testid="colorUnderlay"}
+:::
+
+::: {#bgMedia_comp-lge34d9d1 .VgO9Yg data-motion-part="BG_MEDIA comp-lge34d9d1"}
+:::
+:::::
+
+::::::::: {data-mesh-id="comp-lge34d9d1inlineContent" data-testid="inline-content"}
+:::::::: {data-mesh-id="comp-lge34d9d1inlineContent-gridContainer" data-testid="mesh-container-content"}
+::: {#comp-jcfs5wbs .Z_l5lU .MMl86N .zQ9jDz .qvSjx3 .Vq6kJx .comp-jcfs5wbs .wixui-rich-text data-testid="richTextElement"}
+<p>[Funding sources:]{.wixui-rich-text__text style="font-weight:bold;"}</p>
+:::
+
+:::: {#comp-jcfs9lc9 .MazNVa .comp-jcfs9lc9 .wixui-image}
+::: {.j7pOnl data-testid="linkElement"}
+<img src="https://static.wixstatic.com/media/820ce4_9ba9deac94a94258b0e10de083cef669~mv2.jpg/v1/fill/w_233,h_61,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_9ba9deac94a94258b0e10de083cef669~mv2.jpg" alt="SERDP logo" id="img_comp-jcfs9lc9" class="BI8PVQ Tj01hh" style="object-fit:cover" loading="lazy" sizes="233px" srcset="https://static.wixstatic.com/media/820ce4_9ba9deac94a94258b0e10de083cef669~mv2.jpg/v1/fill/w_233,h_61,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_9ba9deac94a94258b0e10de083cef669~mv2.jpg 1x, https://static.wixstatic.com/media/820ce4_9ba9deac94a94258b0e10de083cef669~mv2.jpg/v1/fill/w_466,h_122,al_c,lg_1,q_80,enc_avif,quality_auto/820ce4_9ba9deac94a94258b0e10de083cef669~mv2.jpg 2x" width="233" height="61"/>
+:::
+::::
+
+:::: {#comp-jcfsaasj .MazNVa .comp-jcfsaasj .wixui-image}
+::: {.j7pOnl data-testid="linkElement"}
+<img src="https://static.wixstatic.com/media/820ce4_79b0a5b131ec4c8fac594227cbe21d39~mv2.jpg/v1/fill/w_100,h_99,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_79b0a5b131ec4c8fac594227cbe21d39~mv2.jpg" alt="Departmet ofDefense logo" id="img_comp-jcfsaasj" class="BI8PVQ Tj01hh" style="object-fit:cover" loading="lazy" sizes="100px" srcset="https://static.wixstatic.com/media/820ce4_79b0a5b131ec4c8fac594227cbe21d39~mv2.jpg/v1/fill/w_100,h_99,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_79b0a5b131ec4c8fac594227cbe21d39~mv2.jpg 1x, https://static.wixstatic.com/media/820ce4_79b0a5b131ec4c8fac594227cbe21d39~mv2.jpg/v1/fill/w_200,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/820ce4_79b0a5b131ec4c8fac594227cbe21d39~mv2.jpg 2x" width="100" height="99"/>
+:::
+::::
+::::::::
+:::::::::
+
+</section>
+:::::::::::::::::::::::::
+::::::::::::::::::::::::::
+:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::

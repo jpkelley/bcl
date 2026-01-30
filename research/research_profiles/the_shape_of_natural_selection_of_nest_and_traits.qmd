@@ -1,0 +1,12 @@
+---
+title: "The shape of natural selection of nest and traits"
+image: "../images/card_pics/egg_nest.jpg"
+description: "We analyze long-term data to determine how natural selection acts on avian nest design and egg patterning. By relating nest and egg traits to survival outcomes, we explore how behavioral and environmental factors shape adaptive nest architecture and egg coloration."
+categories: ["Project BITE"]
+contributors: "BCL"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

@@ -1,0 +1,85 @@
+
+.quarto-listing a {
+  pointer-events: none;
+  color: inherit;         /* Remove link color */
+  text-decoration: none;  /* Remove underline */
+  cursor: default;        /* Normal cursor instead of pointer */
+}
+
+
+body, main, .content, .page-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+#quarto-margin-sidebar .quarto-listing-category-title {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+#quarto-margin-sidebar .quarto-listing-category {
+  font-size: 0.8rem;
+}
+
+.quarto-listing .listing-card .listing-card-title {
+  font-weight: 700;
+}
+
+/* Show full description text without truncation */
+.quarto-listing .listing-card .listing-card-text {
+  display: block;
+  white-space: normal;       /* allow line breaks */
+  overflow: visible;         /* prevent cutting off */
+  text-overflow: clip;       /* remove ellipsis */
+  max-height: none;          /* allow full height */
+}
+
+#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+  z-index: 1;
+  padding-top: 8rem;
+}
+
+
+
+/* --- Hide the first column (labels like "name" and "research") --- */
+.card-other-values td:first-child {
+  display: none !important;
+}
+
+/* --- Make the table behave like a vertical list --- */
+.card-other-values {
+  display: block !important;
+}
+
+.card-other-values tr {
+  display: block !important;
+  margin-bottom: 0.4em;
+
+/* --- Name row --- */
+.card-other-values tr:first-child td.name {
+  display: block !important;
+  font-weight: bold !important;
+  margin-bottom: 0.2em;
+  white-space: nowrap;
+}
+
+/* --- Research row --- */
+.card-other-values tr td.research {
+  display: block !important;
+  font-weight: normal !important;
+  white-space: normal !important;
+  margin-top: 0;
+}
+
+/* --- Add bottom border to the image --- */
+.card-img,
+.card-img-top,
+.quarto-grid-item img {
+  border-bottom: 4px solid #6582d7 !important;
+}
+
+.quarto-grid-item .card-body.post-contents {
+  padding: 0.25rem 0.5rem !important; /* 0.25rem top/bottom, 0.5rem left/right */
+}

@@ -1,0 +1,14 @@
+---
+title: "Jenna Thompson"
+name: "Jenna Thompson"
+image: "/images/profile_pics/jenna_thompson.jpg"
+research: "**Research subject:** Using deep learning to classify of habitat types in rapidly-changing and sparsely-mapped tropical forests"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2021"
+category: "Alumni"
+category_order: "9"
+format:
+  html:
+    toc: FALSE
+---
+

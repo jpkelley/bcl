@@ -1,0 +1,14 @@
+---
+title: "Marcus Anderson"
+name: "Marcus Anderson"
+image: "/images/profile_pics/marcus_anderson.jpg"
+research: "**Research subject:** Correlates of risk-averse foraging in army-ant following birds"
+location: "**Research location:** Panama"
+dates: "**Dates:** 2024-present"
+category: "Current"
+category_order: "6"
+format:
+  html:
+    toc: FALSE
+---
+

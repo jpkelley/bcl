@@ -1,0 +1,12 @@
+---
+title: "Quantification of signal display complexity in birds"
+image: "../images/card_pics/manakin_dancing.jpg"
+description: "We apply information theory to measure and assess the function of the complexity of the social displays in tropical birds."
+categories: ["Animal Communication & Contest Dynamics"]
+contributors: "BCL"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

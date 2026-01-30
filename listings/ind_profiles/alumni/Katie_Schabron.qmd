@@ -1,0 +1,14 @@
+---
+title: "Katie Schabron"
+name: "Katie Schabron"
+image: "/images/profile_pics/katie_schabron.jpg"
+research: "**Research subject:** Influence of campus architectire on bird-window collision dynamics (UW Bird-Window Collision Project)"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2023-2024"
+category: "Alumni"
+category_order: "2"
+format:
+  html:
+    toc: FALSE
+---
+

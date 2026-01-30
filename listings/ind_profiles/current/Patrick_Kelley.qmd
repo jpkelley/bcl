@@ -1,0 +1,14 @@
+---
+title: "Patrick Kelley"
+name: "Patrick Kelley"
+image: "/images/profile_pics/patrick_kelley.jpg"
+research: "**Research subject:** Animal behavior and ecological analysis"
+location: "**Research location:** various"
+dates: "**Dates:** NULL"
+category: "Current"
+category_order: "1"
+format:
+  html:
+    toc: FALSE
+---
+

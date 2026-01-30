@@ -1,0 +1,14 @@
+---
+title: "Rebecca Franke"
+name: "Rebecca Franke"
+image: "/images/profile_pics/rebecca_franke.jpg"
+research: "**Research subject:** The antipredatory role of army-ant-following in Neotropical birds: an experimental test"
+location: "**Research location:** Panama"
+dates: "**Dates:** 2020"
+category: "Alumni"
+category_order: "10"
+format:
+  html:
+    toc: FALSE
+---
+

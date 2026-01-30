@@ -1,0 +1,12 @@
+---
+title: "Statistical epidemics in biology"
+image: "../images/card_pics/papers.jpg"
+description: "We model how analytical fads spread through scientific communities. Viewing statistics as “epidemics” helps identify and mitigate collective biases in data analysis and interpretation."
+categories: ["Project PROBE"]
+contributors: "Kaitlyn McKnight, Janette Davidson"
+feature_order: "l"
+format:
+  html:
+    toc: FALSE
+---
+

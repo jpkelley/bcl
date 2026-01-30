@@ -1,0 +1,82 @@
+---
+title: "About Patrick"
+title-block-banner: images/headers/new_website_header_01.jpg
+format: html
+---
+
+:::::: columns
+::: {.column width="70%"}
+# About Me (Patrick Kelley)
+
+As a trained scientist with a Ph.D. in Animal Behavior, I am interested in any sort of complex animal behavior. The more difficult and complex an organism or a group of organisms are, the more interested I become. My interests and work have spanned multiple fields within behavioral ecology, including bioacoustics, plant-animal interactions, endocrinology, visual perception, telemetry, climatic modeling, movement ecology, and ecological simulations. I have conducted fieldwork across the U.S. and in Central and South America, including Panama, Brazil, and Ecuador. My main work has focused on the tropical forests of Panama, where I have studied the ecology of tropical birds since 2000, using advanced statistical methods to better understand information flow and ecological interactions.
+:::
+
+:::: {.column width="30%"}
+::: top-space-wrapper
+![](images/profile_pics/patrick_kelley.jpg){width="100%"}
+:::
+::::
+::::::
+
+::: {.details collapse="true"}
+<details>
+
+<summary>**Education and Appointments (click to expand)**</summary>
+
+**Education:**
+
+-   University of California-Davis (Ph.D. Animal Behavior; advisor: John C. Wingfield)
+-   Harvard (B.A. Biology)
+
+**Postdoctoral Research Appointments:**
+
+-   University of California, Berkeley
+-   Florida State University
+-   University of British Columbia
+
+**Appointments:**
+
+-   \[2018 - present\] Research Scientist (Fixed Term; full faculty and PI status), Univ. of Wyoming
+-   \[2025 - 2026\] Faculty Fellow, School of Computing, Univ. of Wyoming
+-   \[2023 - present\] Adjunct Faculty, School of Computing, University of Wyoming
+-   \[2022 - present\] Research Associate, Smithsonian Tropical Research Institute
+-   \[2013 - present\] Research Associate, Center for Tropical Studies (UCLA)
+
+</details>
+:::
+
+::: {.details collapse="true"}
+<details>
+
+<summary>**Personal miscellany (click to reveal too much information)**</summary>
+
+Dad twice over to two uncaged yahoos, an always-improving husband, fly-fisherman (freshwater and saltwater), fiercely anti-BS, ever-reverent Eagle Scout, college rower (6-seat or stroke, port-side), lover of simple and functional outdoor gear, data nerd, a pretty good shot with a 12-gauge and a .22 rifle (and, once upon a time, a .38), very amateur artist, collector of Silver/Bronze Age comic books, lover of colorful socks, tinkerer, son of a sin-eater Vietnam vet, Scotland-born, raised in coastal Georgia in a town smaller than Laramie. I’ve been sucker-punched by a Harpy Eagle; I've been an accommodating host to several tropical parasites, including one that ate a hole in my arm; Dengue and a couple of unknown diseases almost killed me; I've had my nose broken by a large branch that fell from the rainforest canopy (poor aim, some say); and I’m the only person I've ever known to have fallen into a human sewage cistern, which had been stewing for weeks in the tropical heat.
+
+</details>
+:::
+
+::: {.details collapse="true"}
+<details>
+
+<summary>**Traditional academic bean-counting (click to expand)**</summary>
+
+-   [Google Scholar Profile](https://scholar.google.com/citations?user=icU-Z0wAAAAJ&hl=en)
+-   [Research Gate](https://www.researchgate.net/profile/J-Patrick-Kelley)
+
+</details>
+:::
+
+# Teaching
+
+I currently teach three courses per year at University of Wyoming (two during Fall term and one in January term):
+
+-   Behavioral Ecology (ZOO-4415) ***or*** Introductory Biology (LIFE-1010) \[alternating Fall terms\]
+-   Quantitative Analysis of Messy Data (ZOO-5500) \[once per year\]
+-   Data Science Deep Dive ***or*** Calling BS in Our Data-driven World (Honors) \[alternative January terms\]
+
+Past courses include:
+
+-   Panama Field Course (WyoPanama): an ecology-based research course in January (led three times). Link to [WyoPanama 1.0 and 2.0](https://wyopanama.weebly.com/about.html) and [WyoPanama 3.0](https://wyopanama.weebly.com/). Link to [Facebook](https://www.facebook.com/wyopanama/).
+-   Population Ecology (ZOO4400)
+
+Other information: I am trained in [Universal Design in Learning (UDL)](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/universal-design-for-learning-udl/) best practices and am a strong proponent of Specifications Based Grading (links: [1](https://academictech.uchicago.edu/2025/07/28/specifications-grading-a-powerful-way-to-reflect-what-students-learn/), [2](https://idaltoona.psu.edu/2025/04/21/rethinking-grading-structures/), [3](https://pubs.acs.org/doi/10.1021/acs.jchemed.3c00473)) .

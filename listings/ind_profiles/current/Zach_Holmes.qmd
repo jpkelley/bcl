@@ -1,0 +1,14 @@
+---
+title: "Zach Holmes"
+name: "Zach Holmes"
+image: "/images/profile_pics/zach_holmes.jpg"
+research: "**Research subject:** Mechanisms of fruit-tracking by avian frugivores in a novel ecosystem"
+location: "**Research location:** Hawaii"
+dates: "**Dates:** 2024-present"
+category: "Current"
+category_order: "3"
+format:
+  html:
+    toc: FALSE
+---
+

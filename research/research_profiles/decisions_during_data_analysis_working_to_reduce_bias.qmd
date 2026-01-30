@@ -1,0 +1,12 @@
+---
+title: "Decisions during data analysis: working to reduce bias"
+image: "../images/card_pics/field_notebook.jpg"
+description: "This project examines how analytical decisions influence biological conclusions. Through simulation and meta-analysis, we identify common sources of bias and promote transparent, reproducible research practices."
+categories: ["Project PROBE"]
+contributors: "Kaitlyn McKnight, Janette Davidson"
+feature_order: "i"
+format:
+  html:
+    toc: FALSE
+---
+

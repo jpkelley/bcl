@@ -1,0 +1,14 @@
+---
+title: "Narisse Trippel"
+name: "Narisse Trippel"
+image: "/images/profile_pics/nar_trippel.jpg"
+research: "**Research subject:** Meta-analysis of anthropogenic factors impacting hormonal stress in birds."
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2023"
+category: "Alumni"
+category_order: "4"
+format:
+  html:
+    toc: FALSE
+---
+

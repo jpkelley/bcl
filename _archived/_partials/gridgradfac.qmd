@@ -1,0 +1,12 @@
+---
+title: "Grid"
+format: html
+listing:
+  type: grid
+  contents: ind_profiles
+  fields: [image, status, research, location, dates]
+  sort: sorting_code
+  grid-columns: 4
+  image-height: 100px
+  page-size: 0
+---

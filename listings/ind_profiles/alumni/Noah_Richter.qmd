@@ -1,0 +1,14 @@
+---
+title: "Noah Richter"
+name: "Noah Richter"
+image: "/images/profile_pics/noah_richter.jpg"
+research: "**Research subject:** Sensitivity of tropical understory birds to tourist activity"
+location: "**Research location:** Panama"
+dates: "**Dates:** 2020-2021"
+category: "Alumni"
+category_order: "6"
+format:
+  html:
+    toc: FALSE
+---
+

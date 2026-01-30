@@ -1,0 +1,11 @@
+load_or_install <- function(pkgs) {
+  for (pkg in pkgs) {
+    if (!requireNamespace(pkg, quietly = TRUE)) {
+      install.packages(pkg)
+    }
+    library(pkg, character.only = TRUE)
+  }
+}
+
+# Example usage with a list of packages
+load_or_install(c("yaml", "dplyr", "ggplot2"))

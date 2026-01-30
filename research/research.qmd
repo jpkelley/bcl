@@ -1,0 +1,95 @@
+---
+title: "Research"
+title-block-banner: ../images/headers/new_website_header_01.jpg
+format: html
+css: [theme.css, styles.css]
+listing:
+  type: grid
+  contents: research_profiles
+  sort: feature_order
+  categories: true
+  fields: [image, title, description, contributors]
+  grid-columns: 4
+  image-height: 120px
+  page-size: 0
+---
+
+# Funding
+
+The work of the Behavioral Complexity Lab and its members is only possible through the support of the following agencies, organizations, and programs. The BCL has brought in \>\$6.6M in grant funding.
+
+:::::: {.details collapse="true"}
+<details>
+
+<summary>**Click to see the Lab's funding sources**</summary>
+
+# Technology development (artifical intelligence and sensor fabrication)
+
+-   Microsoft Corporation
+-   US Department of Defense
+-   UW School of Computing
+-   UW Center for Global Studies
+
+# Hawaii VINE Project (2014 - present)
+
+-   SERDP (US Department of Defense, Department of Energy, and EPA)
+
+# Panama PLUMAS Project (2014 - present)
+
+-   Smithsonian Tropical Research Institute
+-   National Science Foundation
+-   National Geographic
+-   NASA
+-   UW College of Agriculture, Life Sciences, and Natural Resources
+-   UW Center for Global Studies
+
+# Student grants
+
+-   UW Biodiversity Institute
+-   Wyoming Research Scholars Program
+-   Laramie Audubon Society
+-   American Ornithologists' Society (and Union)
+-   Laramie Audubon Society
+-   UW Department of Zoology & Physiology
+-   American Museum of Natural History
+-   Animal Behavior Society
+-   Smithsonian Tropical Research Institute
+-   Harvard College
+
+# Educational Innovation
+
+The lab has been awarded funding from NASA and UW's CALSNR (College of Agriculture, Life Sciences, and Natural Resources) to develop and test innovative teaching tools including:
+
+-   Ultra-wideband (UWB) tracking of instructor behavior in large active-learning classrooms
+-   Gamifying Introductory Biology using original card games
+-   The 70k Brick Project: LEGO-based learning in Introductory Biology
+-   Learning with Faculty: Sensor Fabrication from Scratch
+
+</details>
+
+# Main project areas
+
+At the Behavioral Complexity Lab, we investigate how animals sense, communicate, and make decisions within complex ecological and social systems, focusing on tropical ecosystems like Panama and Hawaii. Combining field-based natural history, bioacoustics, custom sensors, experiments, and large-scale monitoring with information theory, AI, causal modeling, and network analysis, we map behavioral networks, track information flow, and reveal how communication, competition, predation, and environmental change shape populations and communities. Our main project areas include:
+
+::: mt-4
+:::
+
+-   ***Animal Communication & Contest Dynamics:*** Our research investigates how animals use signals to navigate competitive and social interactions. Using acoustic monitoring, deep learning, experiments, and network analysis, we study how individuals assess rivals, coordinate behavior, and decide when to escalate or retreat. By linking communication networks with contest behavior, we reveal how signals shape territorial dynamics, guide decision-making, and drive the evolution of competitive strategies in tropical communities.
+-   ***Hawaii VINE Project (Vertebrate Introductions in Novel Ecosystems):*** The VINE Project investigates how introduced vertebrates integrate into and reshape ecological networks. We study how interactions shift across environments, how disturbance alters connectivity, and how biodiversity supports resilience and community reorganization.
+-   ***Panama PLUMAS (Precipitation and Land Use Effects on Multiple Avian Species):*** PLUMAS examines how rainfall and land-use change affect bird behavior, populations, and communities. We track flock coordination, climate-driven habitat use, and community shifts to connect behavioral ecology with large-scale environmental change.
+-   ***Deep Tropics Project:*** The Deep Tropics Project studies biodiversity, communication, and species interactions in tropical ecosystems. Using acoustic monitoring, network models, and AI, we examine how environmental change and disturbance shape behavior, community structure, and ecosystem responses.
+-   ***Project BITE (Biotic Interactions in Threat Ecology):*** Project BITE investigates how predation risk shapes behavior, sensory systems, and ecological interactions. Working largely in the tropics, we study how animals detect predators, protect offspring, and evolve survival-enhancing traits, revealing how predators structure communities.
+-   ***Project PROBE (Practices, Reproducibility, Objectivity, and Bias in Ecology):*** PROBE examines how analytical choices influence scientific conclusions and contribute to bias. We track how methods spread, develop reproducible workflows, and study how collective decisions shape interpretation to strengthen ecological research.
+
+::: mt-4
+:::
+
+# Full project list
+
+Type search terms into the Filter box or select a project from the right sidebar.
+
+::: mt-4
+:::
+::::::
+
+:::

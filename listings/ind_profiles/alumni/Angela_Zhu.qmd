@@ -1,0 +1,14 @@
+---
+title: "Angela Zhu"
+name: "Angela Zhu"
+image: "/images/profile_pics/angela_zhu.jpg"
+research: "**Research subject:** Interactive effects of precipitation and land-use on physiological stress in black-crowned antshrikes (Thamnophilus atrinucha)"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2022"
+category: "Alumni"
+category_order: "8"
+format:
+  html:
+    toc: FALSE
+---
+

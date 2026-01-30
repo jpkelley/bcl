@@ -1,0 +1,14 @@
+---
+title: "Erin Stewart"
+name: "Erin Stewart"
+image: "/images/profile_pics/erin_stewart.jpg"
+research: "**Research subject:** Resource holding potential in territorial tropical birds"
+location: "**Research location:** Panama"
+dates: "**Dates:** 2022-2024"
+category: "Alumni"
+category_order: "1"
+format:
+  html:
+    toc: FALSE
+---
+

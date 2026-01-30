@@ -4,35 +4,46 @@ project:
 
 website:
   title: ""
-  favicon: images/favicon-32x32.ico
-
+  favicon: "images/favicon_io/favicon.ico"
   navbar:
-    left:
-      - href: "#"
-        icon: ""                # we’ll override with an <img> in content below
-        text: |
-          <img src="images/bcl_logo_trans.png" class="navbar-logo" alt="Logo">
-      - href: index.qmd
-        text: "home"
-      - href: people.qmd
-        text: "people"
-      - href: research.qmd
-        text: "research"
-      - href: publications.qmd
-        text: "publications"
-      - href: funding.qmd
-        text: "funding"
-      - href: about.qmd
-        text: "about"
+    logo: "images/headers/nav_logo.png"
     right:
-      - href: https://facebook.com
-        icon: facebook    # Quarto knows some built-in icons
-      - href: https://blueskyweb.xyz
-        text: Bluesky     # or provide your own icon/text
+      - href: index.qmd
+        text: home
+      - text: people
+        menu: 
+          - text: "All members"
+            href: people.qmd
+          - text: "Patrick Kelley (Lab head)"
+            href: patrick_kelley.qmd
+      - href: "research/research.qmd"
+        text: research
+      - href: "join/join.qmd"
+        text: join
+      - href: "publications.qmd"
+        text: publications
+      - icon: facebook
+        href: "https://www.facebook.com/profile.php?id=61576968269090"
+      - icon: bluesky
+        href: "https://bsky.app/profile/bcl-research.bsky.social"
+        aria-label: "Follow on Bluesky"
 
+collections:
+  ind_profiles:
+    output: false
+  research_profiles:
+    output: false
+    
 format:
   html:
+    theme:
+      - cosmo
+    sidebar: true
     css: styles.css
     toc: false
+    include-in-header: _includes/fonts.html
+    include-after-body: _includes/footer.html
+    link-external-newwindow: true
 
+editor: visual
 

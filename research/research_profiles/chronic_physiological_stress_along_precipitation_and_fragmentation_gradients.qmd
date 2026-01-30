@@ -1,0 +1,12 @@
+---
+title: "Chronic physiological stress along precipitation and fragmentation gradients"
+image: "../images/card_pics/fragment_edge.jpg"
+description: "This study measures stress hormones in birds across rainfall and habitat-fragmentation gradients. We are testing how these two global environmental drivers interact to affect health and resilience of tropical bird species."
+categories: ["Panama PLUMAS Project"]
+contributors: "PLUMAS Team, Angela Zhu, Nar Trippel"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

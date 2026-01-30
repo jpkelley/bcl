@@ -1,0 +1,12 @@
+---
+title: "Importance of abiotic and biotic factors on network structure in novel ecosystems"
+image: "../images/card_pics/miconia.jpg"
+description: "This project evaluates how both environmental factors (e.g., climate, habitat) and biological interactions determine network architecture in novel ecosystems. Results inform how ecological complexity persists or erodes with disturbance."
+categories: ["Hawaii VINE Project"]
+contributors: "Corey Tarwater, Jinelle Sperry, Jeferson Vizentin-Bugoni, Jeff Foster, Don Drake"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

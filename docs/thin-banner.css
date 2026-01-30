@@ -1,0 +1,21 @@
+.quarto-title-banner {
+  width: 100vw;
+  min-height: 60px;
+  margin-top: 60px;
+  background-image: url("images/short_website_header_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;       /* fill width completely */
+  background-position: center center;
+  padding-top: 60px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.quarto-title-banner h1,
+.quarto-title-banner .page-header {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,12 @@
+---
+title: "Individual vocal discrimination in non-Oscine birds"
+image: "../images/card_pics/bioacoustics.jpg"
+description: "This study tests whether non-learning birds can recognize individuals by voice alone. Behavioral playback experiments reveal the extent and ecological importance of vocal individuality in suboscines."
+categories: ["Animal Communication & Contest Dynamics"]
+contributors: "BCL"
+feature_order: "k"
+format:
+  html:
+    toc: FALSE
+---
+

@@ -1,0 +1,32 @@
+---
+title: "People"
+title-block-banner: images/headers/new_website_header_01.jpg
+format: html
+listing: 
+  - id: current-members
+    contents: "listings/ind_profiles/current/*.qmd"
+    type: grid
+    sort: category_order
+    fields: [image, name, research, location, dates]
+    grid-columns: 3
+    image-height: 140px
+    page-size: 0
+  - id: alumni-members
+    contents: "listings/ind_profiles/alumni/*.qmd"
+    type: grid
+    sort: sorting_code
+    fields: [image, name, research, location, dates]
+    grid-columns: 3
+    image-height: 120px
+    page-size: 0
+---
+
+## Current Members
+
+::: {#current-members}
+:::
+
+## Alumni Members
+
+::: {#alumni-members}
+:::

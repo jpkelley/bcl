@@ -1,0 +1,14 @@
+---
+title: "Makayla Visin"
+name: "Makayla Visin"
+image: "/images/profile_pics/makayla_visin.jpg"
+research: "**Research subject:** UW Bird-Window Collision Project"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2022-2023"
+category: "Alumni"
+category_order: "5"
+format:
+  html:
+    toc: FALSE
+---
+

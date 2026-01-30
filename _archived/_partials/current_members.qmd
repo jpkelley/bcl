@@ -1,0 +1,10 @@
+---
+type: grid
+contents: ind_profiles/current_*.qmd
+fields: [image, name, research, location, dates]
+sort: sorting_code
+grid-columns: 4
+image-height: 120px
+page-size: 0
+categories: false
+---

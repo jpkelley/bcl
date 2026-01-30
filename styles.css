@@ -1,206 +1,376 @@
-<<<<<<< HEAD
-/* ===== General Layout ===== */
-body {
+/* Apply Poppins font sitewide */
+body, h4, h5, h6, p, a, li, nav, .navbar, .quarto-title-banner, .sidebar, .footer {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.4; /* adjust as needed */
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+
+/* Optional: tweak heading weights for balance */
+.navbar-brand {
+  font-weight: 200;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  margin-bottom: 0px;
+  background-color:  #fff !important;
+  padding-top: 0.25rem !important;   /* default ~0.5–1rem */
+  padding-bottom: 0.25rem !important;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.navbar .navbar-brand img {
+  height: 50px !important;  /* smaller logo height */
+  max-height: 50px !important;
+  width: auto;
+  object-fit: contain;
+  padding: 0;
   margin: 0;
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-}
-
-.container {
-  width: 70%;
-  margin: 0 auto;
-  padding: 1rem 0;
-  box-sizing: border-box;
-}
-
-/* ===== Container 1: Header ===== */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-left img {
-  height: 75px;
   display: block;
 }
 
-.header-right {
+
+/* Base nav links */
+.navbar a.nav-link,
+.navbar .navbar-brand {
+  font-size: 0.85rem !important;
+  line-height: 1 !important;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a.nav-link:hover,
+.navbar .navbar-brand:hover {
+  background-color: rgba(101, 130, 215, 0.15);
+  color: #6582d7 !important;
+  text-decoration: none !important;
+}
+
+/* Active page highlight */
+.navbar .nav-link.active,
+.navbar .nav-item > .nav-link.active {
+  background-color: #6582d7 !important;
+  color: #ffffff !important;
+  border-radius: 10px;
+  font-weight: 300;
+}
+
+/* 🟦 Highlight the parent menu if a submenu page is active */
+.navbar .dropdown.show > .nav-link,
+.navbar .dropdown-menu .active,
+.navbar .dropdown-item.active,
+.navbar .dropdown-menu .dropdown-item:focus,
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(101, 130, 215, 0.15) !important;
+  color: #6582d7 !important;
+}
+
+/* Ensure top-level dropdown item inherits the active highlight */
+.navbar .dropdown-menu .active,
+.navbar .dropdown.show > .nav-link {
+  background-color: #6582d7 !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+}
+
+/* Force TOC title smaller */
+nav#TOC::before {
+  font-weight: 400;       /* normal weight */
+  font-size: 0.8rem;      /* relative to body font size */
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 0.3em;
+  color: #333;            /* optional: match TOC text */
+}
+
+/* Optional: make TOC links smaller too */
+nav#TOC a {
+  font-size: 0.85rem;
+}
+
+.quarto-title-banner {
+  width: 100vw;
+  min-height: 150px;
+  margin-top: 60px;
+  background-image: url("images/title_banner_frontpage.png");
+  background-repeat: no-repeat;
+  background-size: cover;       /* fill width completely */
+  background-position: center center;
+  padding-top: 60px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.quarto-title-banner h1,
+.quarto-title-banner .page-header {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Ensure inner content stays centered */
+.quarto-title-banner .container {
+  max-width: 100% !important;   /* remove Bootstrap container max-width */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  height: 100%;
+}
+
+body, main, .content, .page-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Smaller font for the sidebar filter */
+#quarto-margin-sidebar .quarto-listing-category-title {
+  font-size: 0.8rem;   /* title above each category */
+  padding-top: 12rem;
+}
+
+#quarto-margin-sidebar .quarto-listing-category {
+  font-size: 0.8rem;   /* items under each category */
+}
+
+.column {
+  font-size: 0.8em;
+}
+
+.columns {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.column:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Footer grid */
+.footer-grid {
+  width: 100vw;            /* Full viewport width */
+  margin-left: calc(50% - 50vw); /* Break out of centered container */
+  margin-right: calc(50% - 50vw);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #6582d7;
+  background-color: #f8f9fa;
+  color: #555;
+}
+
+/* Left column */
+.footer-left {
+  text-align: left;
+}
+
+/* Right column */
+.footer-right {
   text-align: right;
 }
 
-.header-right h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  color: #377eb8; /* medium blue */
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.header-right h1::first-letter {
-  font-size: 2rem;
-}
-
-.header-right p {
-  margin: 0;
-  font-size: 1rem;
-}
-
-/* ===== Container 2: NavBar ===== */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  padding: 0.5rem 0;
-}
-
-.nav-left a {
-  margin-right: 1.5rem;
+/* Links */
+.footer-grid a {
+  color: #0077b6;
   text-decoration: none;
-  color: black;
-  font-weight: 500;
-  position: relative;
 }
 
-.nav-left a:hover::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -3px;
+.footer-grid a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive stack */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer-right {
+    text-align: center;
+  }
+}
+
+details {
+  border: 2px solid #6582d7;        /* soft blue border */
+  background-color: #f8fafc;        /* light gray-blue background */
+  border-radius: 8px;               /* rounded corners */
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  font-weight: 700;
+}
+
+/* Slightly darker shade when expanded */
+details[open] {
+  background-color: #eef3fa;        /* lightened blue when open */
+  border-color: #6582d7;
+}
+
+/* Optional: subtle hover effect */
+details summary:hover {
+  background-color: #dce8f8;
+}
+
+
+.quarto-listing a {
+  pointer-events: none;
+  color: inherit;         /* Remove link color */
+  text-decoration: none;  /* Remove underline */
+  cursor: default;        /* Normal cursor instead of pointer */
+}
+
+/* Remove hover shadow/animation */
+.quarto-listing .listing-item:hover {
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+body, main, .content, .page-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* --- Hide the first column (labels like "name" and "research") --- */
+.card-other-values td:first-child {
+  display: none !important;
+}
+
+/* --- Make the table behave like a vertical list --- */
+.card-other-values {
+  display: block !important;
+}
+
+.card-other-values tr {
+  display: block !important;
+  margin-bottom: 0.4em;
+}
+
+/* --- Name row --- */
+.card-other-values tr:first-child td.name {
+  display: block !important;
+  font-weight: bold !important;
+  margin-bottom: 0.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Research row --- */
+.card-other-values tr td.research {
+  display: block !important;
+  font-weight: normal !important;
+  white-space: normal !important;
+  margin-top: 0;
+}
+
+/* --- Add bottom border to the image --- */
+.card-img,
+.card-img-top,
+.quarto-grid-item img {
+  border-bottom: 4px solid #6582d7 !important;
+}
+
+.quarto-grid-item .card-body.post-contents {
+  padding: 0.25rem 0.5rem !important; /* 0.25rem top/bottom, 0.5rem left/right */
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+.anchorjs-link {
+  display: none !important;
+}
+
+
+div.quarto-post .body {
+  flex: 1 1 70%;
+  flex-shrink: 0;
   width: 100%;
-  height: 2px;
-  background-color: gray;
+}
+  
+  .quarto-post.image-right {
+  flex-direction: row;
 }
 
-.nav-right a {
-  margin-left: 1rem;
+.quarto-listing .listing-title,
+.quarto-grid-item .listing-title,
+.listing .listing-title a,
+.card-title,
+.listing-title {
+  font-weight: 700 !important;
 }
 
-.nav-right img {
-  width: 20px;
-  height: 20px;
-  display: block;
+.card-body .card-title {
+  font-weight: 700 !important;
 }
 
-/* Adjust navbar logo height */
-.navbar-brand img {
-  height: 75px;     /* your desired height */
-  width: auto;
-  margin-right: 10px;
+.listing .quarto-post:second-child {
+  margin-top: 4em;
 }
 
-/* ===== Container 3 & 4: Mission and News ===== */
-.flex-container {
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  padding: 1rem 0;
-  box-sizing: border-box;
+/* Reduce space below the title banner */
+.quarto-title-block {
+  margin-bottom: 0rem !important; /* Default is around 2–3rem */
 }
 
-.flex-logo {
-  flex: 0 0 140px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  z-index: 3;
-  padding-right: 12px;
-}
-.flex-logo img {
-  max-height: 120px;
-  width: auto;
+.quarto-title-block .quarto-title-banner {
+  padding-bottom: 0rem !important; /* Tightens banner-bottom space */
 }
 
-.flex-bg {
-  position: absolute;
-  top: 8px;
-  bottom: 8px;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  border-radius: 4px;
-}
 
-.flex-text {
-  flex: 1;
-  padding: 1rem;
-  z-index: 2;
-  background-color: white;
-}
-
-.flex-image {
-  flex: 0 0 36%;
-  display: flex;
-  justify-content: flex-end;
-  z-index: 2;
-  padding-left: 12px;
-}
-.flex-image img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Pale backgrounds */
-.mission-bg { background-color: #e6f0fa; } /* pale blue */
-.news-bg    { background-color: #fff3e0; } /* pale orange */
-
-/* ===== Container 5: Projects ===== */
-.projects {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.project-box {
-  flex: 1;
-  background-color: white;
-  text-align: center;
-  padding: 0.5rem;
-  box-sizing: border-box;
-}
-
-.project-box img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 0.5rem;
-}
-
-/* ===== Container 6: Footer ===== */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
-  font-size: 0.9rem;
-  box-sizing: border-box;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 900px) {
-  .container { width: 92%; }
-  .flex-container { flex-direction: column; }
-  .flex-logo { justify-content: center; padding-bottom: 8px; }
-  .flex-bg { left: 0; right: 0; top: 0; bottom: 0; border-radius: 0; }
-  .flex-text, .flex-image { width: 100%; padding-left: 0; }
-  .projects { flex-direction: column; }
-  .project-box { width: 100%; }
-  .header { flex-direction: column; text-align: center; gap: 8px; }
-  .navbar { flex-direction: column; gap: 8px; }
-=======
-/* make sure your navbar stays white */
-.navbar {
-  background-color: white !important;
-}
-
-/* size your logo in the navbar */
-.navbar-logo {
-  height: 80px;    /* adjust as needed */
-  width: auto;
-  margin-left: 0.5rem;
->>>>>>> e29dc9a7cd59dffbe5cd10de40de91013649e0a9
+.top-space-wrapper {
+  padding-top: 4rem;
 }

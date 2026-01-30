@@ -1,0 +1,12 @@
+---
+title: "PLUMAS: Precipitation and Land Use Effects on Multiple Avian Species"
+image: "../images/card_pics/fragments.jpg"
+description: "PLUMAS examines how rainfall and land-use change jointly affect bird communities across Panama. By linking precipitation patterns to biodiversity, behavior, and physiology, this project clarifies how climate and habitat shape tropical ecosystems."
+categories: ["Panama PLUMAS Project"]
+contributors: "PLUMAS Team"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

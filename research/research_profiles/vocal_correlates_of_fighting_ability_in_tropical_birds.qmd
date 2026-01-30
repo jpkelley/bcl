@@ -1,0 +1,12 @@
+---
+title: "Vocal correlates of fighting ability in tropical birds"
+image: "../images/card_pics/cban_01.jpg"
+description: "This project investigates whether vocal traits signal competitive strength. Acoustic analyses and behavioral tests assess how song structure predicts dominance and contest outcomes."
+categories: ["contest assessment"]
+contributors: "Erin Stewart, Austin Barth, Jess Kowalski"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

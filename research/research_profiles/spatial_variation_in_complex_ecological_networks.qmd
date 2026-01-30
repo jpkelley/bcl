@@ -1,0 +1,12 @@
+---
+title: "Spatial variation in complex ecological networks"
+image: "../images/card_pics/hawaii.jpg"
+description: "We use interaction networks to explore how species relationships change across space. By quantifying variation in network structure, we reveal how local conditions shape ecological connectivity."
+categories: ["Hawaii VINE Project"]
+contributors: "Corey Tarwater, Jinelle Sperry, Jeferson Vizentin-Bugoni, Jeff Foster, Don Drake"
+feature_order: "NA"
+format:
+  html:
+    toc: FALSE
+---
+

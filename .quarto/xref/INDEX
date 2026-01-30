@@ -4,5 +4,497 @@
   },
   "about.qmd": {
     "about.html": "0980a418"
+  },
+  "join/get_involved.qmd": {
+    "get_involved.html": "e97fbad2"
+  },
+  "people/ind_profiles/Amanda_Norton.qmd": {
+    "Amanda_Norton.html": "069781a4"
+  },
+  "people/ind_profiles/Anna_Chalfoun.qmd": {
+    "Anna_Chalfoun.html": "5a929f67"
+  },
+  "people/ind_profiles/Austin_Barth.qmd": {
+    "Austin_Barth.html": "823bcce9"
+  },
+  "people/ind_profiles/Beth_Wommack.qmd": {
+    "Beth_Wommack.html": "a517f2ea"
+  },
+  "people/ind_profiles/Bri_Agenbroad.qmd": {
+    "Bri_Agenbroad.html": "070db7dd"
+  },
+  "people/ind_profiles/Collin_Porter.qmd": {
+    "Collin_Porter.html": "ed18a573"
+  },
+  "people/ind_profiles/Corey_Tarwater.qmd": {
+    "Corey_Tarwater.html": "a4e66150"
+  },
+  "people/ind_profiles/Don_Jones.qmd": {
+    "Don_Jones.html": "fb12c9dc"
+  },
+  "people/ind_profiles/Emily_Shertzer.qmd": {
+    "Emily_Shertzer.html": "1d219e62"
+  },
+  "people/ind_profiles/Erik_Schoenborn.qmd": {
+    "Erik_Schoenborn.html": "5032e4c3"
+  },
+  "people/ind_profiles/Erin_Stewart.qmd": {
+    "Erin_Stewart.html": "54eb78a8"
+  },
+  "people/ind_profiles/Erin_Strasser.qmd": {
+    "Erin_Strasser.html": "880a4a5a"
+  },
+  "people/ind_profiles/Garrett_Higgins.qmd": {
+    "Garrett_Higgins.html": "20830437"
+  },
+  "people/ind_profiles/Jessie_Williamson.qmd": {
+    "Jessie_Williamson.html": "3cdcf5a9"
+  },
+  "people/ind_profiles/Jess_Kowalski.qmd": {
+    "Jess_Kowalski.html": "a18d683c"
+  },
+  "people/ind_profiles/Josh_Layfield.qmd": {
+    "Josh_Layfield.html": "61e50ffe"
+  },
+  "people/ind_profiles/Katie_Schabron.qmd": {
+    "Katie_Schabron.html": "2762ca86"
+  },
+  "people/ind_profiles/Kelly_Roberts.qmd": {
+    "Kelly_Roberts.html": "9c019a5b"
+  },
+  "people/ind_profiles/Kim_Jordan.qmd": {
+    "Kim_Jordan.html": "8ee0cafd"
+  },
+  "people/ind_profiles/Lindsey_Gapinski.qmd": {
+    "Lindsey_Gapinski.html": "1bd47038"
+  },
+  "people/ind_profiles/Liz_Howard.qmd": {
+    "Liz_Howard.html": "3f46a0bf"
+  },
+  "people/ind_profiles/Marcus_Anderson.qmd": {
+    "Marcus_Anderson.html": "64c7b794"
+  },
+  "people/ind_profiles/Margie_Hemp.qmd": {
+    "Margie_Hemp.html": "a7a8628c"
+  },
+  "people/ind_profiles/Mary_De Aquino.qmd": {
+    "Mary_De Aquino.html": "1637968d"
+  },
+  "people/ind_profiles/Matt_Carling.qmd": {
+    "Matt_Carling.html": "6d6b165e"
+  },
+  "people/ind_profiles/Michael_Castano.qmd": {
+    "Michael_Castano.html": "b17f28a4"
+  },
+  "people/ind_profiles/Olivia_Beaudette.qmd": {
+    "Olivia_Beaudette.html": "7a21275b"
+  },
+  "people/ind_profiles/Patrick_Kelley.qmd": {
+    "Patrick_Kelley.html": "64fdd249"
+  },
+  "people/ind_profiles/Paul_Dougherty.qmd": {
+    "Paul_Dougherty.html": "d25d8e87"
+  },
+  "people/ind_profiles/Reina_Galvan.qmd": {
+    "Reina_Galvan.html": "4f3dd8ba"
+  },
+  "people/ind_profiles/Sarah_Palmieri.qmd": {
+    "Sarah_Palmieri.html": "dfc0a400"
+  },
+  "people/ind_profiles/Zach_Holmes.qmd": {
+    "Zach_Holmes.html": "d454a799"
+  },
+  "people/people.qmd": {
+    "people.html": "0928345a"
+  },
+  "projects/projects.qmd": {
+    "projects.html": "88bc0a7f"
+  },
+  "projects/projects_profiles/banding_project.qmd": {
+    "banding_project.html": "70901d7f"
+  },
+  "projects/projects_profiles/hutton_project.qmd": {
+    "hutton_project.html": "cc423f5b"
+  },
+  "people/ind_profiles/Angela_Zhu.qmd": {
+    "Angela_Zhu.html": "42ca4b93"
+  },
+  "people/ind_profiles/Bernadette_Aguirre.qmd": {
+    "Bernadette_Aguirre.html": "31d64314"
+  },
+  "people/ind_profiles/Jenna_Thompson.qmd": {
+    "Jenna_Thompson.html": "2f7aac75"
+  },
+  "people/ind_profiles/Makayla_Visin.qmd": {
+    "Makayla_Visin.html": "38da7e4c"
+  },
+  "people/ind_profiles/Narisse_Trippel.qmd": {
+    "Narisse_Trippel.html": "399551ec"
+  },
+  "people/ind_profiles/Noah_Richter.qmd": {
+    "Noah_Richter.html": "e2de7daf"
+  },
+  "people/ind_profiles/Rebecca_Franke.qmd": {
+    "Rebecca_Franke.html": "01152799"
+  },
+  "people/ind_profiles/Ryen_Nielsen.qmd": {
+    "Ryen_Nielsen.html": "a403ecd6"
+  },
+  "people/ind_profiles/Thaddeus_Lipke.qmd": {
+    "Thaddeus_Lipke.html": "aa675042"
+  },
+  "people/ind_profiles/Ryan_Nielsen.qmd": {
+    "Ryan_Nielsen.html": "3526149a"
+  },
+  "join/join.qmd": {
+    "join.html": "0dc41f20"
+  },
+  "people/ind_profiles/alumni_Angela_Zhu.qmd": {
+    "alumni_Angela_Zhu.html": "1a0f9b85"
+  },
+  "people/ind_profiles/alumni_Bernadette_Aguirre.qmd": {
+    "alumni_Bernadette_Aguirre.html": "e263a0bf"
+  },
+  "people/ind_profiles/alumni_Erin_Stewart.qmd": {
+    "alumni_Erin_Stewart.html": "89a2d7a8"
+  },
+  "people/ind_profiles/alumni_Jenna_Thompson.qmd": {
+    "alumni_Jenna_Thompson.html": "a8b7c641"
+  },
+  "people/ind_profiles/alumni_Katie_Schabron.qmd": {
+    "alumni_Katie_Schabron.html": "d3e7fd96"
+  },
+  "people/ind_profiles/alumni_Makayla_Visin.qmd": {
+    "alumni_Makayla_Visin.html": "2275fb41"
+  },
+  "people/ind_profiles/alumni_Narisse_Trippel.qmd": {
+    "alumni_Narisse_Trippel.html": "54f010a5"
+  },
+  "people/ind_profiles/alumni_Noah_Richter.qmd": {
+    "alumni_Noah_Richter.html": "820f9e1f"
+  },
+  "people/ind_profiles/alumni_Rebecca_Franke.qmd": {
+    "alumni_Rebecca_Franke.html": "3da84764"
+  },
+  "people/ind_profiles/alumni_Ryan_Nielsen.qmd": {
+    "alumni_Ryan_Nielsen.html": "dafa7d8f"
+  },
+  "people/ind_profiles/alumni_Thaddeus_Lipke.qmd": {
+    "alumni_Thaddeus_Lipke.html": "6323cb99"
+  },
+  "people/ind_profiles/current_Austin_Barth.qmd": {
+    "current_Austin_Barth.html": "f28d2a4c"
+  },
+  "people/ind_profiles/current_Jess_Kowalski.qmd": {
+    "current_Jess_Kowalski.html": "c4c551dc"
+  },
+  "people/ind_profiles/current_Marcus_Anderson.qmd": {
+    "current_Marcus_Anderson.html": "4e1a4801"
+  },
+  "people/ind_profiles/current_Michael_Castano.qmd": {
+    "current_Michael_Castano.html": "e228dc9a"
+  },
+  "people/ind_profiles/current_Patrick_Kelley.qmd": {
+    "current_Patrick_Kelley.html": "4f67bad8"
+  },
+  "people/ind_profiles/current_Zach_Holmes.qmd": {
+    "current_Zach_Holmes.html": "b4b01fc4"
+  },
+  "people/ind_profiles/alumni/Angela_Zhu.qmd": {
+    "Angela_Zhu.html": "73db201c"
+  },
+  "people/ind_profiles/alumni/Bernadette_Aguirre.qmd": {
+    "Bernadette_Aguirre.html": "2be83ff3"
+  },
+  "people/ind_profiles/alumni/Erin_Stewart.qmd": {
+    "Erin_Stewart.html": "86e893c9"
+  },
+  "people/ind_profiles/alumni/Jenna_Thompson.qmd": {
+    "Jenna_Thompson.html": "0ce22829"
+  },
+  "people/ind_profiles/alumni/Katie_Schabron.qmd": {
+    "Katie_Schabron.html": "96fea2bf"
+  },
+  "people/ind_profiles/alumni/Makayla_Visin.qmd": {
+    "Makayla_Visin.html": "f8ff6c25"
+  },
+  "people/ind_profiles/alumni/Narisse_Trippel.qmd": {
+    "Narisse_Trippel.html": "9fce9546"
+  },
+  "people/ind_profiles/alumni/Noah_Richter.qmd": {
+    "Noah_Richter.html": "dc54209e"
+  },
+  "people/ind_profiles/alumni/Rebecca_Franke.qmd": {
+    "Rebecca_Franke.html": "e3cf5360"
+  },
+  "people/ind_profiles/alumni/Ryan_Nielsen.qmd": {
+    "Ryan_Nielsen.html": "e1dfe4d4"
+  },
+  "people/ind_profiles/alumni/Thaddeus_Lipke.qmd": {
+    "Thaddeus_Lipke.html": "2dc89937"
+  },
+  "people/ind_profiles/current/Austin_Barth.qmd": {
+    "Austin_Barth.html": "e1ba46fa"
+  },
+  "people/ind_profiles/current/Jess_Kowalski.qmd": {
+    "Jess_Kowalski.html": "015e17f5"
+  },
+  "people/ind_profiles/current/Marcus_Anderson.qmd": {
+    "Marcus_Anderson.html": "fe1f5251"
+  },
+  "people/ind_profiles/current/Michael_Castano.qmd": {
+    "Michael_Castano.html": "e995fccc"
+  },
+  "people/ind_profiles/current/Patrick_Kelley.qmd": {
+    "Patrick_Kelley.html": "e060feeb"
+  },
+  "people/ind_profiles/current/Zach_Holmes.qmd": {
+    "Zach_Holmes.html": "95377cb3"
+  },
+  "teaching/teaching.qmd": {
+    "teaching.html": "b56fff9a"
+  },
+  "data_entry/data_entry.qmd": {
+    "data_entry.html": "577e2512"
+  },
+  "research/research.qmd": {
+    "research.html": "d41f952f"
+  },
+  "research/research_profiles/banding_project.qmd": {
+    "banding_project.html": "b48bcb63"
+  },
+  "research/research_profiles/hutton_project.qmd": {
+    "hutton_project.html": "5f650b5f"
+  },
+  "lab_head/lab_head.qmd": {
+    "lab_head.html": "031f9bb1"
+  },
+  "lab_head/patrick_kelley.qmd": {
+    "patrick_kelley.html": "436b49ac"
+  },
+  "research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.qmd": {
+    "assessment_of_numerical_advantage_in_animal_contests.html": "2a6b9ae2"
+  },
+  "research/research_profiles/bite_force_in_insectivorous_birds.qmd": {
+    "bite_force_in_insectivorous_birds.html": "a6f8fa7e"
+  },
+  "research/research_profiles/chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.qmd": {
+    "chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.html": "e4171866"
+  },
+  "research/research_profiles/context_dependent_information_transfer_in_birds.qmd": {
+    "context_dependent_information_transfer_in_birds.html": "45e8c70e"
+  },
+  "research/research_profiles/decisions_during_data_analysis_working_to_reduce_bias.qmd": {
+    "decisions_during_data_analysis_working_to_reduce_bias.html": "3ec796cb"
+  },
+  "research/research_profiles/detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.qmd": {
+    "detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.html": "edf0640f"
+  },
+  "research/research_profiles/eavesdropping_and_community_structuring_in_army_ant_following_birds.qmd": {
+    "eavesdropping_and_community_structuring_in_army_ant_following_birds.html": "2d593b19"
+  },
+  "research/research_profiles/experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.qmd": {
+    "experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.html": "10123caf"
+  },
+  "research/research_profiles/exploring_within_species_variation_in_suboscine_song.qmd": {
+    "exploring_within_species_variation_in_suboscine_song.html": "ae9d07a5"
+  },
+  "research/research_profiles/fluctuating_natural_selection_on_nest_survival_of_tropical_birds.qmd": {
+    "fluctuating_natural_selection_on_nest_survival_of_tropical_birds.html": "0c7790e8"
+  },
+  "research/research_profiles/importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.qmd": {
+    "importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.html": "73c2bbb8"
+  },
+  "research/research_profiles/individual_vocal_discrimination_in_non_oscine_birds.qmd": {
+    "individual_vocal_discrimination_in_non_oscine_birds.html": "a8252eda"
+  },
+  "research/research_profiles/joint_resource_holding_potential_in_tropical_birds.qmd": {
+    "joint_resource_holding_potential_in_tropical_birds.html": "ca7c3489"
+  },
+  "research/research_profiles/joint_territory_defense_and_contest_assessment_strategies_in_tropical_birds.qmd": {
+    "joint_territory_defense_and_contest_assessment_strategies_in_tropical_birds.html": "1d9fb18d"
+  },
+  "research/research_profiles/multidimensional_acoustic_interaction_networks_in_tropical_forests.qmd": {
+    "multidimensional_acoustic_interaction_networks_in_tropical_forests.html": "b258182f"
+  },
+  "research/research_profiles/olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.qmd": {
+    "olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.html": "dbe19b5a"
+  },
+  "research/research_profiles/plumas_precipitation_and_land_use_effects_on_multiple_avian_species.qmd": {
+    "plumas_precipitation_and_land_use_effects_on_multiple_avian_species.html": "8a283b9e"
+  },
+  "research/research_profiles/quantification_of_signal_display_complexity_in_birds.qmd": {
+    "quantification_of_signal_display_complexity_in_birds.html": "d0dd7634"
+  },
+  "research/research_profiles/sonobeast.qmd": {
+    "sonobeast.html": "1911cecf"
+  },
+  "research/research_profiles/soundscapes_along_tropical_forest_gradients.qmd": {
+    "soundscapes_along_tropical_forest_gradients.html": "686e9a8d"
+  },
+  "research/research_profiles/spatial_variation_in_complex_ecological_networks.qmd": {
+    "spatial_variation_in_complex_ecological_networks.html": "0e63592f"
+  },
+  "research/research_profiles/statistical_epidemics_in_biology.qmd": {
+    "statistical_epidemics_in_biology.html": "9e148198"
+  },
+  "research/research_profiles/the_bci_effect_project_history_and_effects_of_extreme_predation_risk.qmd": {
+    "the_bci_effect_project_history_and_effects_of_extreme_predation_risk.html": "39d52dec"
+  },
+  "research/research_profiles/the_shape_of_natural_selection_of_nest_traits.qmd": {
+    "the_shape_of_natural_selection_of_nest_traits.html": "ac3316da"
+  },
+  "research/research_profiles/visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.qmd": {
+    "visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.html": "01337f80"
+  },
+  "research/research_profiles/visual_assessment_of_risk_in_jumping_spiders.qmd": {
+    "visual_assessment_of_risk_in_jumping_spiders.html": "26b6b745"
+  },
+  "research/research_profiles/vocal_correlates_of_fighting_ability_in_tropical_birds.qmd": {
+    "vocal_correlates_of_fighting_ability_in_tropical_birds.html": "57dda80e"
+  },
+  "research/research_profiles/modeling_behavioral_response_networks_as_large_language_models.qmd": {
+    "modeling_behavioral_response_networks_as_large_language_models.html": "cbfc3003"
+  },
+  "research/research_profiles/the_shape_of_natural_selection_of_nest_and_traits.qmd": {
+    "the_shape_of_natural_selection_of_nest_and_traits.html": "eecfb095"
+  },
+  "research/research_profiles/large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.qmd": {
+    "large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.html": "ed5b6a48"
+  },
+  "research/research_profiles/sonobeast_modular_acoustic_logger.qmd": {
+    "sonobeast_modular_acoustic_logger.html": "01c90520"
+  },
+  "people/patrick_kelley.qmd": {
+    "patrick_kelley.html": "ef192e84"
+  },
+  "vignettes/howto_short_article_[guidebook].qmd": {
+    "howto_short_article_[guidebook].html": "5d901d83"
+  },
+  "research/research_profiles/joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.qmd": {
+    "joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.html": "b94306be"
+  },
+  "guidebooks/short-paper-writing.qmd": {
+    "short-paper-writing.html": "f8190e68"
+  },
+  "guidebooks.qmd": {
+    "guidebooks.html": "9e8b3be5"
+  },
+  "images/listings/ind_profiles/alumni/Angela_Zhu.qmd": {
+    "Angela_Zhu.html": "ca3e4c83"
+  },
+  "images/listings/ind_profiles/alumni/Bernadette_Aguirre.qmd": {
+    "Bernadette_Aguirre.html": "ad02339d"
+  },
+  "images/listings/ind_profiles/alumni/Erin_Stewart.qmd": {
+    "Erin_Stewart.html": "73ef2b9f"
+  },
+  "images/listings/ind_profiles/alumni/Jenna_Thompson.qmd": {
+    "Jenna_Thompson.html": "fb4caef0"
+  },
+  "images/listings/ind_profiles/alumni/Katie_Schabron.qmd": {
+    "Katie_Schabron.html": "63c50778"
+  },
+  "images/listings/ind_profiles/alumni/Makayla_Visin.qmd": {
+    "Makayla_Visin.html": "3e6310de"
+  },
+  "images/listings/ind_profiles/alumni/Narisse_Trippel.qmd": {
+    "Narisse_Trippel.html": "a2616232"
+  },
+  "images/listings/ind_profiles/alumni/Noah_Richter.qmd": {
+    "Noah_Richter.html": "fc096a70"
+  },
+  "images/listings/ind_profiles/alumni/Rebecca_Franke.qmd": {
+    "Rebecca_Franke.html": "a7c83d64"
+  },
+  "images/listings/ind_profiles/alumni/Ryan_Nielsen.qmd": {
+    "Ryan_Nielsen.html": "c31c59d9"
+  },
+  "images/listings/ind_profiles/alumni/Thaddeus_Lipke.qmd": {
+    "Thaddeus_Lipke.html": "0a314bf9"
+  },
+  "images/listings/ind_profiles/current/Austin_Barth.qmd": {
+    "Austin_Barth.html": "78e9c880"
+  },
+  "images/listings/ind_profiles/current/Jess_Kowalski.qmd": {
+    "Jess_Kowalski.html": "bd76e0f8"
+  },
+  "images/listings/ind_profiles/current/Marcus_Anderson.qmd": {
+    "Marcus_Anderson.html": "192ce435"
+  },
+  "images/listings/ind_profiles/current/Michael_Castano.qmd": {
+    "Michael_Castano.html": "50eb7ac6"
+  },
+  "images/listings/ind_profiles/current/Patrick_Kelley.qmd": {
+    "Patrick_Kelley.html": "2d87d705"
+  },
+  "images/listings/ind_profiles/current/Zach_Holmes.qmd": {
+    "Zach_Holmes.html": "e79494ef"
+  },
+  "patrick_kelley.qmd": {
+    "patrick_kelley.html": "7d0bf9b8"
+  },
+  "people.qmd": {
+    "people.html": "bb07621a"
+  },
+  "listings/ind_profiles/alumni/Angela_Zhu.qmd": {
+    "Angela_Zhu.html": "2ff42b16"
+  },
+  "listings/ind_profiles/alumni/Bernadette_Aguirre.qmd": {
+    "Bernadette_Aguirre.html": "8a3889cb"
+  },
+  "listings/ind_profiles/alumni/Erin_Stewart.qmd": {
+    "Erin_Stewart.html": "a4eefc4d"
+  },
+  "listings/ind_profiles/alumni/Jenna_Thompson.qmd": {
+    "Jenna_Thompson.html": "d73d8cf5"
+  },
+  "listings/ind_profiles/alumni/Katie_Schabron.qmd": {
+    "Katie_Schabron.html": "2fd1868d"
+  },
+  "listings/ind_profiles/alumni/Makayla_Visin.qmd": {
+    "Makayla_Visin.html": "4039b676"
+  },
+  "listings/ind_profiles/alumni/Narisse_Trippel.qmd": {
+    "Narisse_Trippel.html": "aae1e882"
+  },
+  "listings/ind_profiles/alumni/Noah_Richter.qmd": {
+    "Noah_Richter.html": "65d881f1"
+  },
+  "listings/ind_profiles/alumni/Rebecca_Franke.qmd": {
+    "Rebecca_Franke.html": "abcf53f0"
+  },
+  "listings/ind_profiles/alumni/Ryan_Nielsen.qmd": {
+    "Ryan_Nielsen.html": "07e5a875"
+  },
+  "listings/ind_profiles/alumni/Thaddeus_Lipke.qmd": {
+    "Thaddeus_Lipke.html": "c5218582"
+  },
+  "listings/ind_profiles/current/Austin_Barth.qmd": {
+    "Austin_Barth.html": "23bf1ff4"
+  },
+  "listings/ind_profiles/current/Jess_Kowalski.qmd": {
+    "Jess_Kowalski.html": "de6edc38"
+  },
+  "listings/ind_profiles/current/Marcus_Anderson.qmd": {
+    "Marcus_Anderson.html": "23ff8486"
+  },
+  "listings/ind_profiles/current/Michael_Castano.qmd": {
+    "Michael_Castano.html": "f0e73e53"
+  },
+  "listings/ind_profiles/current/Patrick_Kelley.qmd": {
+    "Patrick_Kelley.html": "97e2a6f7"
+  },
+  "listings/ind_profiles/current/Zach_Holmes.qmd": {
+    "Zach_Holmes.html": "553b3283"
+  },
+  "guidebooks/nested-problem-solving.qmd": {
+    "nested-problem-solving.html": "4f029f9c"
+  },
+  "tarwater_page.qmd": {
+    "tarwater_page.html": "6c4274c6"
+  },
+  "publications.qmd": {
+    "publications.html": "7df16028"
   }
 }

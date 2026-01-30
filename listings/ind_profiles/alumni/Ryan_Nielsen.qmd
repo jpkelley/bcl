@@ -1,0 +1,14 @@
+---
+title: "Ryan Nielsen"
+name: "Ryan Nielsen"
+image: "/images/profile_pics/ryan_nielsen.jpg"
+research: "**Research subject:** Behavioral and physiological ecology of jumping spiders"
+location: "**Research location:** Wyoming"
+dates: "**Dates:** 2023"
+category: "Alumni"
+category_order: "3"
+format:
+  html:
+    toc: FALSE
+---
+

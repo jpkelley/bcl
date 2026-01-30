@@ -1,0 +1,12 @@
+---
+title: "Detection of neighbor-stranger recognition using complex interaction networks"
+image: "../images/card_pics/antshrike_02.jpg"
+description: "By applying network analysis to vocal interactions, we uncover hidden patterns of neighbor-stranger recognition. This approach improves detection of social recognition processes that traditional playback and analysis approaches may miss."
+categories: ["Animal Communication & Contest Dynamics"]
+contributors: "Erin Stewart, Jess Kowalski"
+feature_order: "j"
+format:
+  html:
+    toc: FALSE
+---
+
