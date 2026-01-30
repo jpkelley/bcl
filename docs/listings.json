@@ -1,34 +1,5 @@
 [
   {
-    "listing": "/projects/projects.html",
-    "items": [
-      "/projects/projects_profiles/banding_project.html",
-      "/projects/projects_profiles/hutton_project.html"
-    ]
-  },
-  {
-    "listing": "/people/people.html",
-    "items": [
-      "/people/ind_profiles/current/Patrick_Kelley.html",
-      "/people/ind_profiles/current/Austin_Barth.html",
-      "/people/ind_profiles/current/Jess_Kowalski.html",
-      "/people/ind_profiles/current/Marcus_Anderson.html",
-      "/people/ind_profiles/current/Michael_Castano.html",
-      "/people/ind_profiles/current/Zach_Holmes.html",
-      "/people/ind_profiles/alumni/Erin_Stewart.html",
-      "/people/ind_profiles/alumni/Katie_Schabron.html",
-      "/people/ind_profiles/alumni/Bernadette_Aguirre.html",
-      "/people/ind_profiles/alumni/Makayla_Visin.html",
-      "/people/ind_profiles/alumni/Narisse_Trippel.html",
-      "/people/ind_profiles/alumni/Ryan_Nielsen.html",
-      "/people/ind_profiles/alumni/Angela_Zhu.html",
-      "/people/ind_profiles/alumni/Jenna_Thompson.html",
-      "/people/ind_profiles/alumni/Noah_Richter.html",
-      "/people/ind_profiles/alumni/Thaddeus_Lipke.html",
-      "/people/ind_profiles/alumni/Rebecca_Franke.html"
-    ]
-  },
-  {
     "listing": "/research/research.html",
     "items": [
       "/research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.html",
@@ -62,13 +33,6 @@
     ]
   },
   {
-    "listing": "/guidebooks.html",
-    "items": [
-      "/guidebooks/nested-problem-solving.html",
-      "/guidebooks/short-paper-writing.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/listings/ind_profiles/current/Patrick_Kelley.html",
@@ -88,6 +52,13 @@
       "/listings/ind_profiles/alumni/Rebecca_Franke.html",
       "/listings/ind_profiles/alumni/Ryan_Nielsen.html",
       "/listings/ind_profiles/alumni/Thaddeus_Lipke.html"
+    ]
+  },
+  {
+    "listing": "/guidebooks.html",
+    "items": [
+      "/guidebooks/nested-problem-solving.html",
+      "/guidebooks/short-paper-writing.html"
     ]
   }
 ]
