@@ -496,5 +496,11 @@
   },
   "publications.qmd": {
     "publications.html": "7df16028"
+  },
+  "research.qmd": {
+    "research.html": "fa5d0311"
+  },
+  "new_research/decisions_during_data_analysis_working_to_reduce_bias_reformatted.qmd": {
+    "decisions_during_data_analysis_working_to_reduce_bias_reformatted.html": "524789e7"
   }
 }

@@ -374,3 +374,11 @@ div.quarto-post .body {
 .top-space-wrapper {
   padding-top: 4rem;
 }
+
+.quarto-listing-default .listing-title {
+  margin-bottom: 0.4rem;   /* space below title */
+}
+
+.quarto-listing-default .listing-description {
+  margin-top: 0.4rem;      /* space above description */
+}

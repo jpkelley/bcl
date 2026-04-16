@@ -4,13 +4,13 @@ title-block-banner: ../images/headers/new_website_header_01.jpg
 format: html
 css: [theme.css, styles.css]
 listing:
-  type: grid
+  type: default
   contents: research_profiles
   sort: feature_order
   categories: true
   fields: [image, title, description, contributors]
-  grid-columns: 4
-  image-height: 120px
+  image-align: left
+  image-height: 180px
   page-size: 0
 ---
 

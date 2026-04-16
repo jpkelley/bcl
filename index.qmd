@@ -11,7 +11,7 @@ format:
 
 The Behavioral Complexity Lab studies how animals sense, communicate, and make decisions by focusing on the causal processes that generate ecological and social patterns in the wild. We pair intensive fieldwork with transparent, reproducible workflows to track how information moves through ecosystems and link environmental constraints, social interactions, organismal traits, and observation processes to behavior, biodiversity, and community organization. This work is organized around a set of approaches that are designed to push ecological research toward clearer, mechanism-based inference (rather than muddled ecological inference):
 
-* **Structural causal modeling (SCMs) and DAG-based workflows** that center explicit, estimand-driven questions
+* **Structural causal modeling (SCMs) and DAG-based workflows** that focus on explicit, estimand-driven questions
 * **Novel field-deployable sensor systems** that expand what can be measured in natural systems and bring behavior and environment into the same causal framework
 * **Information-centric approaches** that treat signals, cues, and soundscapes as causal drivers of behavior and ecological interactions
 * **AI-assisted and computational methods** that scale the extraction and synthesis of complex behavioral and acoustic data for causal analysis
@@ -20,10 +20,26 @@ The Behavioral Complexity Lab studies how animals sense, communicate, and make d
 ::: {.callout-tip icon=false collapse=false}
 ## News from the lab
 
-* [04/2026] Zach Holmes (PhD student) **receives a $4,000 Biodiversity Graduate Student Research Enhancement Grant** to study the role of acoustic information on bird-plant interactions in Hawaii! Congratulations!
-* [03/2026] Michael Castaño (MS student) **successfully defends in Master's Thesis** and will be graduating this semester! Way to go, Michael! Congratulations!!!!
-* [01/2026] Zach Holmes (PhD student) **receives word from Titley Scientific that they will support his work** deploying recording units at his field site in Hawaii. Congratulations!
-* [01/2026] Michael Castaño (MS student) begins **working on novel applications of AI** in tropical ecosystems (funded by UW School of Computing)
+**[04/2026]** Zach Holmes (PhD student) **receives a $4,000 Biodiversity Graduate Student Research Enhancement Grant** to study the role of acoustic information on bird-plant interactions in Hawaii! Congratulations! Three papers that were co-authored by Zach Holmes (PhD students) are published; these paper are ones he worked on during his MS degree at University of Florida:
+
+* (Use of Nest Boxes by Eastern Bluebirds in Rural South-Central Florida)["articles/nonlab/Meliane_etal_2026b.pdf"]
+* (Nocturnal at Noon? Addressing False Positives in Activity
+Pattern Data)["articles/nonlab/Meliane_etal_2026a.pdf"]
+* (How wildlife respond to tropical cyclones:
+short-term tactics and long-term impacts)["articles/nonlab/Koen_etal_2026.pdf"]
+
+---
+
+**[03/2026]** Michael Castaño (MS student) **successfully defends in Master's Thesis** and will be graduating this semester! Way to go, Michael! Congratulations!!!!
+
+---
+
+**[01/2026]** Zach Holmes (PhD student) **receives word from Titley Scientific that they will support his work** deploying recording units at his field site in Hawaii. Congratulations!
+  Michael Castaño (MS student) begins **working on novel applications of AI** in tropical ecosystems (funded by UW School of Computing)
+
+---
+
+**[09-12/2025]** PI Patrick Kelley is on sabbatical studying Structural Causal Modeling.
 
 :::
 

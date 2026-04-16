@@ -1,12 +1,13 @@
 ---
-title: "Bite force in insectivorous birds"
+title: "**Bite force in insectivorous birds**"
 image: "../images/card_pics/bite_force.jpg"
-description: "We measure bite strength in insect-eating birds to test how feeding performance relates to diet specialization and morphology—work that also launched the lab’s development of new technologies for assessing individual performance in the wild."
+description: |
+  **Summary:** By measuring bite strength in insect-eating tropical birds, we are testing how feeding performance relates to diet specialization and morphology; this work also launched the lab’s program to develop new technologies for assessing individual performance in the wild."
+
+  **Contributors:** BCL and collaborators
 categories: ["Panama PLUMAS Project"]
-contributors: "BCL"
 feature_order: "NA"
 format:
   html:
     toc: FALSE
 ---
-
