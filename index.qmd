@@ -20,7 +20,7 @@ The Behavioral Complexity Lab studies how animals sense, communicate, and make d
 ::: {.callout-tip icon=false collapse=false}
 ## News from the lab
 
-**[04/2026]** Zach Holmes (PhD student) **receives a $4,000 Biodiversity Graduate Student Research Enhancement Grant** to study the role of acoustic information on bird-plant interactions in Hawaii! Congratulations! Three papers that were co-authored by Zach Holmes (PhD students) are published; these paper are ones he worked on during his MS degree at University of Florida:
+**[04/2026]** Lots of big development for Zach Holmes (PhD student) this month! First, Zach successfully defended his PhD proposal. He gave a wonderful talk about an ambitious project and then defended his proposal (fielding questions about proposed analysis that I've never seen asked of other students)! Zach also **received a $4,000 Biodiversity Graduate Student Research Enhancement Grant** to study the role of acoustic information on bird-plant interactions in Hawaii! Congratulations! And then, he tells me that three papers that were co-authored were recently published; these papers are ones he worked on during his MS degree at University of Florida:
 
 * [Use of Nest Boxes by Eastern Bluebirds in Rural South-Central Florida](articles/nonlab/Meliane_etal_2026b.pdf)
 * [Nocturnal at Noon? Addressing False Positives in Activity Pattern Data](articles/nonlab/Meliane_etal_2026a.pdf)
