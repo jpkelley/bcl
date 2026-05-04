@@ -20,9 +20,9 @@ website:
         text: research
       - href: "join/join.qmd"
         text: join
-      - href: "committee_request.qmd"
+      - href: committee_request.qmd
         text: committee request
-      - href: "publications.qmd"
+      - href: publications.qmd
         text: publications
       - icon: facebook
         href: "https://www.facebook.com/profile.php?id=61576968269090"
