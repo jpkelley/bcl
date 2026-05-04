@@ -34,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/favicon_io/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -73,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-contributors',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -111,42 +80,11 @@ background-size: cover;
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="theme.css">
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -192,6 +130,10 @@ window.Quarto = {
 <span class="menu-text">join</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../committee_request.html"> 
+<span class="menu-text">committee request</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">publications</span></a>
   </li>  
@@ -232,8 +174,7 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(28)</span></div><div class="category" data-category="QW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==">Animal Communication &amp; Contest Dynamics <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Q29udGVzdCUyMGFzc2Vzc21lbnQ=">Contest assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29udGVzdCUyMGFzc2Vzc21lbnQ=">contest assessment <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGVlcCUyMFRyb3BpY3MlMjBQcm9qZWN0">Deep Tropics Project <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SGF3YWlpJTIwVklORSUyMFByb2plY3Q=">Hawaii VINE Project <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdA==">Panama PLUMAS Project <span class="quarto-category-count">(6)</span></div><div class="category" data-category="UHJvamVjdCUyMEJJVEU=">Project BITE <span class="quarto-category-count">(6)</span></div><div class="category" data-category="UHJvamVjdCUyMFBST0JF">Project PROBE <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -241,31 +182,33 @@ window.Quarto = {
 
 
 
-<section id="funding" class="level1">
-<h1>Funding</h1>
+<section id="funding" class="level2">
+<h2 class="anchored" data-anchor-id="funding">Funding</h2>
 <p>The work of the Behavioral Complexity Lab and its members is only possible through the support of the following agencies, organizations, and programs. The BCL has brought in &gt;$6.6M in grant funding.</p>
-<div class="details" data-collapse="true">
-<details>
-<summary>
-<strong>Click to see the Lab’s funding sources</strong>
-</summary>
-<section id="technology-development-artifical-intelligence-and-sensor-fabrication" class="level1">
-<h1>Technology development (artifical intelligence and sensor fabrication)</h1>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span><strong>Click to see the Lab’s funding sources</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Technology development (artifical intelligence and sensor fabrication)</strong></p>
 <ul>
 <li>Microsoft Corporation</li>
 <li>US Department of Defense</li>
 <li>UW School of Computing</li>
 <li>UW Center for Global Studies</li>
 </ul>
-</section>
-<section id="hawaii-vine-project-2014---present" class="level1">
-<h1>Hawaii VINE Project (2014 - present)</h1>
+<p><strong>Hawaii VINE Project (2014 - present)</strong></p>
 <ul>
 <li>SERDP (US Department of Defense, Department of Energy, and EPA)</li>
 </ul>
-</section>
-<section id="panama-plumas-project-2014---present" class="level1">
-<h1>Panama PLUMAS Project (2014 - present)</h1>
+<p><strong>Panama PLUMAS Project (2014 - present)</strong></p>
 <ul>
 <li>Smithsonian Tropical Research Institute</li>
 <li>National Science Foundation</li>
@@ -274,681 +217,142 @@ window.Quarto = {
 <li>UW College of Agriculture, Life Sciences, and Natural Resources</li>
 <li>UW Center for Global Studies</li>
 </ul>
-</section>
-<section id="student-grants" class="level1">
-<h1>Student grants</h1>
+<p><strong>Student grants (PI=PI as a student; S=students)</strong></p>
 <ul>
-<li>UW Biodiversity Institute</li>
-<li>Wyoming Research Scholars Program</li>
-<li>Laramie Audubon Society</li>
-<li>American Ornithologists’ Society (and Union)</li>
-<li>Laramie Audubon Society</li>
-<li>UW Department of Zoology &amp; Physiology</li>
-<li>American Museum of Natural History</li>
-<li>Animal Behavior Society</li>
-<li>Smithsonian Tropical Research Institute</li>
-<li>Harvard College</li>
+<li>UW Biodiversity Institute (S)</li>
+<li>Wyoming Research Scholars Program (S)</li>
+<li>Laramie Audubon Society (S)</li>
+<li>American Ornithologists’ Society (and Union) (PI, S)</li>
+<li>UW Department of Zoology &amp; Physiology (S)</li>
+<li>American Museum of Natural History (PI)</li>
+<li>Animal Behavior Society (PI, S)</li>
+<li>Smithsonian Tropical Research Institute (PI)</li>
+<li>Harvard College (PI)</li>
+<li>Titley Scientific (S)</li>
+<li>Wildlife Acoustics (S)</li>
+<li>Wyoming NASA Space Grant Consortium (PI, S)</li>
 </ul>
-</section>
-<section id="educational-innovation" class="level1">
-<h1>Educational Innovation</h1>
+<p><strong>Educational Innovation</strong></p>
 <p>The lab has been awarded funding from NASA and UW’s CALSNR (College of Agriculture, Life Sciences, and Natural Resources) to develop and test innovative teaching tools including:</p>
 <ul>
 <li>Ultra-wideband (UWB) tracking of instructor behavior in large active-learning classrooms</li>
 <li>Gamifying Introductory Biology using original card games</li>
 <li>The 70k Brick Project: LEGO-based learning in Introductory Biology</li>
-<li>Learning with Faculty: Sensor Fabrication from Scratch</li>
+<li>Learning with Faculty: SonoBEAST Sensor Fabrication from Scratch</li>
 </ul>
-</section></details>
-</div></section>
-<section id="main-project-areas" class="level1">
-<h1>Main project areas</h1>
-<p>At the Behavioral Complexity Lab, we investigate how animals sense, communicate, and make decisions within complex ecological and social systems, focusing on tropical ecosystems like Panama and Hawaii. Combining field-based natural history, bioacoustics, custom sensors, experiments, and large-scale monitoring with information theory, AI, causal modeling, and network analysis, we map behavioral networks, track information flow, and reveal how communication, competition, predation, and environmental change shape populations and communities. Our main project areas include:</p>
-<div class="mt-4">
-
+</div>
+</div>
+</div>
+</section>
+<section id="main-project-areas" class="level2">
+<h2 class="anchored" data-anchor-id="main-project-areas">Main project areas</h2>
+<p>At the Behavioral Complexity Lab, we investigate how animals sense, communicate, and make decisions within complex ecological and social systems, focusing on tropical ecosystems like Panama and Hawaii. Combining field-based natural history, bioacoustics, custom sensors, experiments, and large-scale monitoring with information theory, AI, structural causal modeling (SCM), and network analysis, we map behavioral networks, track information flow, and identify the causal processes through which communication, competition, predation, and environmental change shape populations and communities. Our main project areas include:</p>
+<hr>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><strong>Project PROBE (Practices, Reproducibility, Objectivity, and Bias in Ecology)</strong></p>
+<p>PROBE examines how analytical choices influence scientific conclusions and contribute to bias. Using causal diagrams (DAGs) and SCM-based workflows, we evaluate how different modeling decisions (kitchen-sink modeling and classical Structural Equation Modeling) target different quantities. We also seek to understand how how methods spread and how they broaden or canalize research ideas. We also study how SCMs and estimand-aware workflow can be effectively integrated into ecological research by identifying how researchers can adopt causal logic more broadly to strengthen ecological inference.</p>
+</div><div class="column" style="width:20%;">
+<p><img src="images/card_pics/papers_dag.png" class="img-fluid"></p>
+</div>
 </div>
 <ul>
-<li><strong><em>Animal Communication &amp; Contest Dynamics:</em></strong> Our research investigates how animals use signals to navigate competitive and social interactions. Using acoustic monitoring, deep learning, experiments, and network analysis, we study how individuals assess rivals, coordinate behavior, and decide when to escalate or retreat. By linking communication networks with contest behavior, we reveal how signals shape territorial dynamics, guide decision-making, and drive the evolution of competitive strategies in tropical communities.</li>
-<li><strong><em>Hawaii VINE Project (Vertebrate Introductions in Novel Ecosystems):</em></strong> The VINE Project investigates how introduced vertebrates integrate into and reshape ecological networks. We study how interactions shift across environments, how disturbance alters connectivity, and how biodiversity supports resilience and community reorganization.</li>
-<li><strong><em>Panama PLUMAS (Precipitation and Land Use Effects on Multiple Avian Species):</em></strong> PLUMAS examines how rainfall and land-use change affect bird behavior, populations, and communities. We track flock coordination, climate-driven habitat use, and community shifts to connect behavioral ecology with large-scale environmental change.</li>
-<li><strong><em>Deep Tropics Project:</em></strong> The Deep Tropics Project studies biodiversity, communication, and species interactions in tropical ecosystems. Using acoustic monitoring, network models, and AI, we examine how environmental change and disturbance shape behavior, community structure, and ecosystem responses.</li>
-<li><strong><em>Project BITE (Biotic Interactions in Threat Ecology):</em></strong> Project BITE investigates how predation risk shapes behavior, sensory systems, and ecological interactions. Working largely in the tropics, we study how animals detect predators, protect offspring, and evolve survival-enhancing traits, revealing how predators structure communities.</li>
-<li><strong><em>Project PROBE (Practices, Reproducibility, Objectivity, and Bias in Ecology):</em></strong> PROBE examines how analytical choices influence scientific conclusions and contribute to bias. We track how methods spread, develop reproducible workflows, and study how collective decisions shape interpretation to strengthen ecological research.</li>
+<li>Tracking bias-inducing and bias-reducing practices in ecology</li>
+<li>Defining the estimand-aware workflow</li>
+<li>Decisions during data analysis: working to reduce bias</li>
+<li>Statistical epidemics in biology</li>
 </ul>
-<div class="mt-4">
-
+<hr>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><strong>Animal Communication &amp; Contest Dynamics:</strong> Our research investigates how animals use signals to navigate competitive and social interactions. Using acoustic monitoring, deep learning, experiments, and network analysis, we study how individuals assess rivals, coordinate behavior, and decide when to escalate or retreat. Framed within causal models of signaling and appraisal, we study how communication mediates territorial dynamics and shapes decision-making and assessment strategies.</p>
+</div><div class="column" style="width:20%;">
+<p><img src="images/card_pics/cban_001.jpg" class="img-fluid"></p>
 </div>
+</div>
+<ul>
+<li>Experimental tests of the function of vocal duetting in tropical birds</li>
+<li>Context-dependent information transfer in birds</li>
+<li>Exploring within-species variation in suboscine song</li>
+<li>Quantification of signal display complexity in birds</li>
+<li>Joint resource holding potential and and contest assessment strategies in tropical birds</li>
+<li>Detection of neighbor-stranger recognition using complex interaction networks</li>
+<li>Individual vocal discrimination in non-Oscine birds</li>
+<li>Memory in territorial birds</li>
+<li>Assessment of numerical advantage in animal contests</li>
+<li>Vocal correlates of fighting ability in tropical birds</li>
+</ul>
+<hr>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><strong>Hawaii VINE Project (Vertebrate Introductions in Novel Ecosystems):</strong> The multi-institutional, multi-PI VINE Project (started in 2014) investigates how introduced vertebrates integrate into and reshape ecological networks. Using causal network models, my lab studies how interactions shift across environments, how disturbance alters connectivity, and how biodiversity supports resilience and community reorganization.</p>
+</div><div class="column" style="width:20%;">
+<p><img src="images/card_pics/rble_001.jpg" class="img-fluid"></p>
+</div>
+</div>
+<ul>
+<li>Causal inference in conservation ecology</li>
+<li>Importance of abiotic and biotic factors on network structure in novel ecosystems</li>
+<li>Spatial variation in complex ecological networks</li>
+<li>Large-scale experimental tests of network resilience in a novel ecosystem in Hawaii</li>
+</ul>
+<hr>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><strong>Panama PLUMAS (Precipitation and Land Use Effects on Multiple Avian Species):</strong> PLUMAS examines how rainfall and land-use change affect bird behavior, populations, and communities. We use SCM-guided analyses to separate climate-driven effects from behavioral and ecological feedbacks, linking individual decisions to large-scale environmental change.</p>
+</div><div class="column" style="width:20%;">
+<p><img src="images/card_pics/fragments.jpg" class="img-fluid"></p>
+</div>
+</div>
+<ul>
+<li>Fragmentation and precipitation as causal drivers of morphology, physiology, behavior, and community structuring in tropical birds</li>
+<li>Eavesdropping in army-ant-following birds</li>
+<li>Olfactory cues for detecting army-ant swarms in army any following birds</li>
+<li>Chronic physiological stress along precipitation and fragmentation gradients</li>
+<li>Bite force in insectivorous birds</li>
+<li>Causal drivers of three-dimensional territorial size</li>
+</ul>
+<hr>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><strong>Project BITE (Biotic Interactions in Threat Ecology)</strong></p>
+<p>Project BITE investigates how predation risk shapes behavior, sensory systems, and ecological interactions. Working largely in the tropics, we study how animals detect predators, protect offspring, and evolve survival-enhancing traits, revealing how predators structure communities.</p>
+</div><div class="column" style="width:20%;">
+<p><img src="images/card_pics/collared_forest_falcon.jpg" class="img-fluid"></p>
+</div>
+</div>
+<ul>
+<li>Fluctuating natural selection on nest survival of tropical birds</li>
+<li>Visual &amp; auditory predation risk cues (army ants)<br>
+</li>
+<li>BCI effect: extreme predation risk<br>
+</li>
+<li>The shape of natural selection of nest and traits</li>
+<li>Visual assessment of risk in jumping spiders</li>
+<li>Multidimensional acoustic interaction networks in tropical forests</li>
+</ul>
+<hr>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><strong>Deep Tropics Project</strong></p>
+<p>The Deep Tropics Project studies biodiversity, communication, and species interactions in tropical ecosystems. Integrating acoustic monitoring, AI, and causal network modeling, we examine how environmental change and disturbance propagate through behavioral systems to shape community structure and ecosystem responses.</p>
+</div><div class="column" style="width:20%;">
+<p><img src="images/card_pics/chorus_spectro.png" class="img-fluid"></p>
+</div>
+</div>
+<ul>
+<li>Modeling behavioral response networks as large language models</li>
+<li>Army ant swarm olfactory cues<br>
+</li>
+<li>Soundscapes across tropical gradients<br>
+</li>
+<li>SonoBEAST modular acoustic sensor platform</li>
+</ul>
+
+
 </section>
-<section id="full-project-list" class="level1">
-<h1>Full project list</h1>
-<p>Type search terms into the Filter box or select a project from the right sidebar.</p>
-<div class="mt-4">
 
-</div>
-</section>
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="Q29udGVzdCUyMGFzc2Vzc21lbnQ=" data-listing-file-modified-sort="1775683713412" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/terr_slas.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.html" class="no-external"><strong>Assessment of numerical advantage in animal contests</strong></a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.html" class="no-external">
-<p><strong>Summary:</strong> We explore how animals perceive and respond to differences in group size during conflicts. We use field-based experiments reveal how territory holders assess intrusion threat based on numerical advantage.</p>
-<p><strong>Contributors:</strong> Tanner Warder (undergraduate)</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdA==" data-listing-file-modified-sort="1775683849433" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/bite_force_in_insectivorous_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/bite_force.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/bite_force_in_insectivorous_birds.html" class="no-external"><strong>Bite force in insectivorous birds</strong></a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/bite_force_in_insectivorous_birds.html" class="no-external">
-<p><strong>Summary:</strong> By measuring bite strength in insect-eating tropical birds, we are testing how feeding performance relates to diet specialization and morphology; this work also launched the lab’s program to develop new technologies for assessing individual performance in the wild.”</p>
-<p><strong>Contributors:</strong> BCL and collaborators</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/bite_force_in_insectivorous_birds.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdA==" data-listing-file-modified-sort="1775706014064" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/fragment_edge.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.html" class="no-external"><strong>Chronic physiological stress along precipitation and fragmentation gradients</strong></a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.html" class="no-external">
-<p>This study measures stress hormones in birds across rainfall and habitat-fragmentation gradients. We are testing how these two global environmental drivers interact to affect health and resilience of tropical bird species.</p>
-<p><strong>Contributors:</strong> PLUMAS Team, Angela Zhu, Nar Trippel</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="QW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559137" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/context_dependent_information_transfer_in_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/song_wren.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/context_dependent_information_transfer_in_birds.html" class="no-external">Context-dependent information transfer in birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/context_dependent_information_transfer_in_birds.html" class="no-external">
-<p>Using fine-scale time-series analysis, we investigate what counts as “information” in animal signaling and how its transmission shifts with social context, showing that birds convey the most information during high-threat territorial encounters.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/context_dependent_information_transfer_in_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-categories="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdCUyQ0FuaW1hbCUyMENvbW11bmljYXRpb24lMjAlMjYlMjBDb250ZXN0JTIwRHluYW1pY3M=" data-listing-file-modified-sort="1769807559139" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/eavesdropping_and_community_structuring_in_army_ant_following_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/bcan_001.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/eavesdropping_and_community_structuring_in_army_ant_following_birds.html" class="no-external">Eavesdropping and community structuring in army ant following birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/eavesdropping_and_community_structuring_in_army_ant_following_birds.html" class="no-external">
-<p>This work explores how species use acoustic cues to locate army-ant swarms. We find that asymmetric “eavesdropping” helps organize community structure in mixed-species foraging assemblages.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/eavesdropping_and_community_structuring_in_army_ant_following_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Michael Castano, PLUMAS Team
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="5" data-categories="Y29udGVzdCUyMGFzc2Vzc21lbnQlMkNBbmltYWwlMjBDb21tdW5pY2F0aW9uJTIwJTI2JTIwQ29udGVzdCUyMER5bmFtaWNz" data-listing-file-modified-sort="1769807559140" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/cban_001.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.html" class="no-external">Experimental tests of the function of vocal duetting in tropical birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.html" class="no-external">
-<p>Using controlled playback experiments, we test competing hypotheses about duetting: cooperation, mate guarding, or joint defense. The results reveal how coordinated signaling may stabilize social partnerships.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Erin Stewart
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="6" data-categories="QW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559140" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/exploring_within_species_variation_in_suboscine_song.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/female_antshrike.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/exploring_within_species_variation_in_suboscine_song.html" class="no-external">Exploring within-species variation in suboscine song</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/exploring_within_species_variation_in_suboscine_song.html" class="no-external">
-<p>We investigate how and why song varies within and among individuals of suboscine birds, which lack vocal learning. Acoustic analyses reveal the evolutionary balance between genetic constraint and ecological adaptation.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/exploring_within_species_variation_in_suboscine_song.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Erin Stewart, Austin Barth
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="7" data-categories="UHJvamVjdCUyMEJJVEU=" data-listing-file-modified-sort="1769807559141" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/fluctuating_natural_selection_on_nest_survival_of_tropical_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/rcma_nest.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/fluctuating_natural_selection_on_nest_survival_of_tropical_birds.html" class="no-external">Fluctuating natural selection on nest survival of tropical birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/fluctuating_natural_selection_on_nest_survival_of_tropical_birds.html" class="no-external">
-<p>This project quantifies temporal changes in selection pressures on nest survival. Using multi-year datasets from several species, we test how fluctuating environments affect evolutionary trajectories in tropical bird populations.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/fluctuating_natural_selection_on_nest_survival_of_tropical_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="8" data-categories="SGF3YWlpJTIwVklORSUyMFByb2plY3Q=" data-listing-file-modified-sort="1769807559142" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/miconia.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.html" class="no-external">Importance of abiotic and biotic factors on network structure in novel ecosystems</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.html" class="no-external">
-<p>This project evaluates how both environmental factors (e.g., climate, habitat) and biological interactions determine network architecture in novel ecosystems. Results inform how ecological complexity persists or erodes with disturbance.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Corey Tarwater, Jinelle Sperry, Jeferson Vizentin-Bugoni, Jeff Foster, Don Drake
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="9" data-categories="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdA==" data-listing-file-modified-sort="1769807559151" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/plumas_precipitation_and_land_use_effects_on_multiple_avian_species.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/fragments.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/plumas_precipitation_and_land_use_effects_on_multiple_avian_species.html" class="no-external">PLUMAS: Precipitation and Land Use Effects on Multiple Avian Species</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/plumas_precipitation_and_land_use_effects_on_multiple_avian_species.html" class="no-external">
-<p>PLUMAS examines how rainfall and land-use change jointly affect bird communities across Panama. By linking precipitation patterns to biodiversity, behavior, and physiology, this project clarifies how climate and habitat shape tropical ecosystems.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/plumas_precipitation_and_land_use_effects_on_multiple_avian_species.html" class="no-external">
-<div class="metadata-value listing-contributors">
-PLUMAS Team
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="10" data-categories="QW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559156" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/quantification_of_signal_display_complexity_in_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/manakin_dancing.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/quantification_of_signal_display_complexity_in_birds.html" class="no-external">Quantification of signal display complexity in birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/quantification_of_signal_display_complexity_in_birds.html" class="no-external">
-<p>We apply information theory to measure and assess the function of the complexity of the social displays in tropical birds.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/quantification_of_signal_display_complexity_in_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="11" data-categories="RGVlcCUyMFRyb3BpY3MlMjBQcm9qZWN0" data-listing-file-modified-sort="1769807559157" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/soundscapes_along_tropical_forest_gradients.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/spectro.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/soundscapes_along_tropical_forest_gradients.html" class="no-external">Soundscapes along tropical forest gradients</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/soundscapes_along_tropical_forest_gradients.html" class="no-external">
-<p>We map how biodiversity and human disturbance shape forest soundscapes. Acoustic data provide an integrative measure of ecosystem health and biotic change across tropical gradients.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/soundscapes_along_tropical_forest_gradients.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Erin Stewart
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="12" data-categories="SGF3YWlpJTIwVklORSUyMFByb2plY3Q=" data-listing-file-modified-sort="1769807559157" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/spatial_variation_in_complex_ecological_networks.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/hawaii.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/spatial_variation_in_complex_ecological_networks.html" class="no-external">Spatial variation in complex ecological networks</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/spatial_variation_in_complex_ecological_networks.html" class="no-external">
-<p>We use interaction networks to explore how species relationships change across space. By quantifying variation in network structure, we reveal how local conditions shape ecological connectivity.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/spatial_variation_in_complex_ecological_networks.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Corey Tarwater, Jinelle Sperry, Jeferson Vizentin-Bugoni, Jeff Foster, Don Drake
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="13" data-categories="UHJvamVjdCUyMEJJVEU=" data-listing-file-modified-sort="1769807559159" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/the_bci_effect_project_history_and_effects_of_extreme_predation_risk.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/bci_image.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/the_bci_effect_project_history_and_effects_of_extreme_predation_risk.html" class="no-external">The ‘BCI Effect Project’: History and effects of extreme predation risk</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/the_bci_effect_project_history_and_effects_of_extreme_predation_risk.html" class="no-external">
-<p>Using Barro Colorado Island’s unique history of isolation, this project examines how chronic high predation influences bird behavior, physiology, and life history. Results illuminate how predator pressure drives evolutionary and ecological divergence.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/the_bci_effect_project_history_and_effects_of_extreme_predation_risk.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="14" data-categories="UHJvamVjdCUyMEJJVEU=" data-listing-file-modified-sort="1769807559159" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/the_shape_of_natural_selection_of_nest_and_traits.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/egg_nest.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/the_shape_of_natural_selection_of_nest_and_traits.html" class="no-external">The shape of natural selection of nest and traits</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/the_shape_of_natural_selection_of_nest_and_traits.html" class="no-external">
-<p>We analyze long-term data to determine how natural selection acts on avian nest design and egg patterning. By relating nest and egg traits to survival outcomes, we explore how behavioral and environmental factors shape adaptive nest architecture and egg coloration.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/the_shape_of_natural_selection_of_nest_and_traits.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="15" data-categories="UHJvamVjdCUyMEJJVEU=" data-listing-file-modified-sort="1769807559161" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/visual_assessment_of_risk_in_jumping_spiders.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/spider_01.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/visual_assessment_of_risk_in_jumping_spiders.html" class="no-external">Visual assessment of risk in jumping spiders</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/visual_assessment_of_risk_in_jumping_spiders.html" class="no-external">
-<p>This project examines how jumping spiders use visual cues to assess predation risk, using controlled experiments and AI-based video analysis to test how movement, size, and approach speed shape their decisions and escape behavior.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/visual_assessment_of_risk_in_jumping_spiders.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Ryen Nielson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="16" data-categories="Y29udGVzdCUyMGFzc2Vzc21lbnQ=" data-listing-file-modified-sort="1769807559161" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/vocal_correlates_of_fighting_ability_in_tropical_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/cban_01.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/vocal_correlates_of_fighting_ability_in_tropical_birds.html" class="no-external">Vocal correlates of fighting ability in tropical birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/vocal_correlates_of_fighting_ability_in_tropical_birds.html" class="no-external">
-<p>This project investigates whether vocal traits signal competitive strength. Acoustic analyses and behavioral tests assess how song structure predicts dominance and contest outcomes.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/vocal_correlates_of_fighting_ability_in_tropical_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Erin Stewart, Austin Barth, Jess Kowalski
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="17" data-categories="RGVlcCUyMFRyb3BpY3MlMjBQcm9qZWN0JTJDUHJvamVjdCUyMEJJVEUlMkNBbmltYWwlMjBDb21tdW5pY2F0aW9uJTIwJTI2JTIwQ29udGVzdCUyMER5bmFtaWNz" data-listing-file-modified-sort="1769807559149" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/multidimensional_acoustic_interaction_networks_in_tropical_forests.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/swift_recorder.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/multidimensional_acoustic_interaction_networks_in_tropical_forests.html" class="no-external">Multidimensional acoustic interaction networks in tropical forests</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/multidimensional_acoustic_interaction_networks_in_tropical_forests.html" class="no-external">
-<p>This project examines how animal communication networks are structured across species, habitats, and time. By mapping “who talks to whom” acoustically, we aim to understand the drivers of information flow and biodiversity in sound-rich tropical environments.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/multidimensional_acoustic_interaction_networks_in_tropical_forests.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Jess Kowalski, Austin Barth, and Marcus Anderson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="18" data-categories="RGVlcCUyMFRyb3BpY3MlMjBQcm9qZWN0JTJDQW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559156" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/sonobeast_modular_acoustic_logger.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/fabrication.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/sonobeast_modular_acoustic_logger.html" class="no-external">sonoBEAST modular acoustic logger</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/sonobeast_modular_acoustic_logger.html" class="no-external">
-<p>The sonoBEAST project develops and tests lightweight, field-friendly acoustic sensors and deep-learning tools to detect, identify, and analyze animal sounds in biodiverse tropical forests. By mapping vocal networks, it reveals behavioral complexity, species interactions, and ecological change.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/sonobeast_modular_acoustic_logger.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Michael Castano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="19" data-categories="SGF3YWlpJTIwVklORSUyMFByb2plY3Q=" data-listing-file-modified-sort="1769807559148" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/rble_001.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.html" class="no-external">Large-scale experimental tests of network resilience in a novel ecosystem in Hawaii</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.html" class="no-external">
-<p>The project manipulates plant–seed disperser interactions in a novel ecosystem to uncover mechanisms of community stability, resilience, and recovery—offering large-scale, real-world insight into how biodiversity supports ecosystem function under change.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Zach Holmes, Garrett Higgins, Corey Tarwater, Jinelle Sperry, Jeferson Vizentin-Bugoni, Jeff Foster, Don Drake
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="20" data-categories="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdCUyQ1Byb2plY3QlMjBCSVRFJTJDQW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559160" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/collared_forest_falcon.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.html" class="no-external">Visual and auditory cues of predation risk in army-ant following flocks</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.html" class="no-external">
-<p>We assess how mixed-species flocks detect predators using both sight and sound. Experiments along forest gradients reveal how multimodal signals coordinate escape behavior and shape community cohesion.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Marcus Anderson, Rebecca Franke
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="21" data-categories="UGFuYW1hJTIwUExVTUFTJTIwUHJvamVjdCUyQ0FuaW1hbCUyMENvbW11bmljYXRpb24lMjAlMjYlMjBDb250ZXN0JTIwRHluYW1pY3M=" data-listing-file-modified-sort="1769807559150" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/ghet_001.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.html" class="no-external">Olfactory cues for detecting army-ant swarms in army any following birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.html" class="no-external">
-<p>We test whether tropical birds can smell army-ant presence and activity. Controlled field experiments assess whether olfactory cues supplement auditory and visual signals in locating foraging opportunities.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Michael Castano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="22" data-categories="Y29udGVzdCUyMGFzc2Vzc21lbnQlMkNBbmltYWwlMjBDb21tdW5pY2F0aW9uJTIwJTI2JTIwQ29udGVzdCUyMER5bmFtaWNz" data-listing-file-modified-sort="1769807559147" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/cban_001.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.html" class="no-external">Joint resource holding potential and and contest assessment strategies in tropical birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.html" class="no-external">
-<p>This work investigates how duetting pairs assess rivals during territorial disputes. Using playback and behavioral observation, we test whether joint signaling improves defense efficiency or alters opponent assessment dynamics.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Erin Stewart, Austin Barth, Jess Kowalski
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="23" data-categories="RGVlcCUyMFRyb3BpY3MlMjBQcm9qZWN0" data-listing-file-modified-sort="1769807559149" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/modeling_behavioral_response_networks_as_large_language_models.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/female_slas.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/modeling_behavioral_response_networks_as_large_language_models.html" class="no-external">Modeling behavioral response networks as large language models</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/modeling_behavioral_response_networks_as_large_language_models.html" class="no-external">
-<p>This project treats animal behavioral interactions as networks inspired by large language models, using behavior sequences to predict responses, uncover hidden patterns, and understand how individuals and groups coordinate actions in complex ecological systems.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/modeling_behavioral_response_networks_as_large_language_models.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="24" data-categories="UHJvamVjdCUyMFBST0JF" data-listing-file-modified-sort="1775685319042" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/decisions_during_data_analysis_working_to_reduce_bias.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/field_notebook.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/decisions_during_data_analysis_working_to_reduce_bias.html" class="no-external"><strong>Decisions during data analysis: working to reduce bias</strong></a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/decisions_during_data_analysis_working_to_reduce_bias.html" class="no-external">
-<p><strong>Summary:</strong> This project examines how analytical decisions influence biological conclusions. Through simulation and meta-analysis, we identify common sources of bias and promote transparent, reproducible research practices.</p>
-<p><strong>Contributors:</strong> Kaitlyn McKnight, Janette Davidson</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/decisions_during_data_analysis_working_to_reduce_bias.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="25" data-categories="QW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559139" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/antshrike_02.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.html" class="no-external">Detection of neighbor-stranger recognition using complex interaction networks</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.html" class="no-external">
-<p>By applying network analysis to vocal interactions, we uncover hidden patterns of neighbor-stranger recognition. This approach improves detection of social recognition processes that traditional playback and analysis approaches may miss.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Erin Stewart, Jess Kowalski
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="26" data-categories="QW5pbWFsJTIwQ29tbXVuaWNhdGlvbiUyMCUyNiUyMENvbnRlc3QlMjBEeW5hbWljcw==" data-listing-file-modified-sort="1769807559142" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/individual_vocal_discrimination_in_non_oscine_birds.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/bioacoustics.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/individual_vocal_discrimination_in_non_oscine_birds.html" class="no-external">Individual vocal discrimination in non-Oscine birds</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/individual_vocal_discrimination_in_non_oscine_birds.html" class="no-external">
-<p>This study tests whether non-learning birds can recognize individuals by voice alone. Behavioral playback experiments reveal the extent and ecological importance of vocal individuality in suboscines.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/individual_vocal_discrimination_in_non_oscine_birds.html" class="no-external">
-<div class="metadata-value listing-contributors">
-BCL
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="27" data-categories="UHJvamVjdCUyMFBST0JF" data-listing-file-modified-sort="1769807559158" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../research/research_profiles/statistical_epidemics_in_biology.html" class="no-external">
-
-<img loading="lazy" data-src="../research/images/card_pics/papers.jpg" class="thumbnail-image" style="height: 180px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/research_profiles/statistical_epidemics_in_biology.html" class="no-external">Statistical epidemics in biology</a>
-</h3>
-<div class="delink listing-description"><a href="../research/research_profiles/statistical_epidemics_in_biology.html" class="no-external">
-<p>We model how analytical fads spread through scientific communities. Viewing statistics as “epidemics” helps identify and mitigate collective biases in data analysis and interpretation.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../research/research_profiles/statistical_epidemics_in_biology.html" class="no-external">
-<div class="metadata-value listing-contributors">
-Kaitlyn McKnight, Janette Davidson
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div></main></div>
-<p>:::</p>
-
-
-
-
-
- <!-- /main -->
+</main> <!-- /main -->
 <div class="footer-grid">
 
   <div class="footer-left">
@@ -1394,7 +798,7 @@ Kaitlyn McKnight, Janette Davidson
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 

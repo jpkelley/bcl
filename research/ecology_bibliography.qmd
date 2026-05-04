@@ -1,0 +1,43 @@
+---
+title: "Selected Ecology Papers Bibliography"
+format: html
+---
+
+- Sih et al. (2004). Behavioral syndromes: an ecological and evolutionary overview. *Trends in Ecology & Evolution*.  
+  Correlated behaviors constrain plasticity and shape ecological, evolutionary outcomes.
+
+- Wong et al. (2015). Behavioral responses to changing environments. *Behavioral Ecology*.  
+  Behavioral plasticity mediates species persistence under rapid anthropogenic environmental change.
+
+- Chave et al. (2013). The problem of pattern and scale in ecology: what have we learned in 20 years? *Ecology Letters*.  
+  Ecological processes vary across scales; linking pattern and process remains central.
+
+- Duckworth et al. (2009). The role of behavior in evolution: a search for mechanism. *Evolutionary Ecology*.  
+  Behavior can drive or inhibit evolution depending on mechanisms and context.
+
+- Murtaugh et al. (2007). Simplicity and complexity in ecological data analysis. *Ecology*.  
+  Simpler analyses often outperform complex models for clarity and reproducibility.
+
+- Franks et al. (2025). Ecology needs a causal overhaul. *Biological Reviews*.  
+  Ecology must adopt explicit causal inference frameworks beyond statistical associations.
+
+- Hobbs et al. (2006). Alternatives to statistical hypothesis testing in ecology. *Ecological Applications*.  
+  Likelihood and Bayesian methods enable richer inference than traditional hypothesis testing.
+
+- Hurlbert et al. (1984). Pseudoreplication and the design of ecological field experiments. *Ecological Monographs*.  
+  Improper replication undermines inference; experimental design must match hypotheses.
+
+- Laland et al. (2016). An introduction to niche construction theory. *Evolutionary Ecology*.  
+  Organisms modify environments, feeding back to influence evolutionary processes.
+
+- Levin et al. (1992). The problem of pattern and scale in ecology. *Ecology*.  
+  Ecological patterns emerge from scale-dependent processes requiring cross-scale integration.
+
+- McEwen et al. (2003). The concept of allostasis in biology and biomedicine. *Hormones and Behavior*.  
+  Organisms maintain stability through change, balancing energy demands and stressors.
+
+- Odling-Smee et al. (2013). Niche construction theory: a practical guide for ecologists. *Quarterly Review of Biology*.  
+  Environmental modification by organisms generates eco-evolutionary feedbacks and inheritance.
+
+- Schank et al. (2009). Pseudoreplication is a pseudoproblem. *Journal of Comparative Psychology*.  
+  Critiques pseudoreplication doctrine, emphasizing context-dependent statistical inference and design.

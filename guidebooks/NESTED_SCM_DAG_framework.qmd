@@ -1,0 +1,199 @@
+---
+title: "NESTED: A Structured Framework for Behavioral-Ecology Research"
+author: Patrick Kelley
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## NESTED: A Structured Framework for Behavioral-Ecology Research
+
+In behavioral ecology, understanding interactions between species requires more than just statistical analysis. Passive acoustic recordings, camera traps, or observational data provide exceedingly rich datasets, but they are often noisy, incomplete, and influenced by complex ecological, behavioral, and observation processes. Application of generalized linear (or additive) models --even using mixed-effect designs-- very commonly break the underlying pattern-generating processes that we study. 
+
+In this short guide, I describe the **NESTED framework**, which offers a logical, repeatable pipeline for tackling questions that integrate statistical modeling with ecological validation, always grounded in natural history knowledge. NESTED has the following steps:
+
+1.  Name the Alternative Hypotheses 
+2.  Embed Natural History
+3.  Structured Data Collection and Processing 
+4.  Test with Models 
+5.  Ecological Validation 
+6.  Deliver & Iterate 
+
+A central addition to this framework is an explicit **structural causal modeling (SCM) / directed acyclic graph (DAG)** approach. The DAG does not replace natural history; it formalizes our empirical understanding. It helps translate ecological understanding and reasoning into explicit assumptions about causal (i.e. generative) pathways, confounding, mediation, detection, measurement, and time-lagged responses. This is far from being anything novel. But this approach has the following advantages
+
+* keep our thoughts in order, allowing us to match statistics with our focal questions
+* formally identify what variables should and should not be adjusted for
+* reduces harmful decision-making (by eliminating information theoretic variable selection)
+* reduces the sample size to information ratio (especially compared to approaches like AIC multi-model selection or Structual Equation Modeling)
+
+Let us go through
+
+---
+
+::: {.callout-note icon="false" collapse="true"}
+## **1. Name the Alternative Hypotheses**
+
+The first step is to explicitly define the competing hypotheses that might explain the patterns we observe:
+
+-   What are the plausible ways one species could affect another?
+-   Could observed patterns result from confounding factors such as habitat, season, time of day, weather, or detectability?
+-   Which hypotheses are consistent with known natural-history traits such as activity patterns, response times, social behavior, movement, and sensory ecology?
+-   Which hypotheses imply a **causal effect**, and which imply only association, prediction, or description?
+
+At this stage, the goal is to name the alternative explanations before fitting any model. For an SCM/DAG workflow, these hypotheses become candidate causal structures. Each alternative should imply a different set of pathways, such as:
+
+-   direct effects,
+-   indirect or mediated effects,
+-   shared causes or confounders,
+-   detection or observation processes,
+-   temporal feedbacks or lagged responses.
+
+By naming the alternatives upfront, we create a clear roadmap for testing and ensure that subsequent modeling is **hypothesis-driven, causally explicit, and ecologically informed**.
+:::
+
+::: {.callout-note icon="false" collapse="true"}
+## **2. Embed Natural History**
+
+Next, we explicitly embed the natural history and ecology of the study species or group of species into the study design and data processing:
+
+-   Select temporal and spatial scales that match behavior, such as 10-second bins for vocal interactions. This is where one could disagree with Levin (1992).
+-   Select auxiliary data such as temperature, light, noise, location, habitat, season, or observer conditions that could be relevant to the study questions.
+-   Plan manipulative or observational experiments that are ethical and feasible, accounting for the natural history and ecology of the species.
+-   Identify variables that may act as confounders, mediators, moderators, outcomes, or detection processes.
+
+In the SCM/DAG approach, natural history determines the structure of the graph. It helps decide which arrows are plausible, which arrows are implausible, which variables must be measured, and which variables should not be conditioned on for a particular estimand.
+
+Together, these choices help ensure that the dataset captures the **variation that actually matters in nature**, rather than simply collecting variables that are convenient to measure.
+:::
+
+::: {.callout-note icon="false" collapse="true"}
+## **3. Structured Data Collection and Processing**
+
+I transform raw observations into features suitable for analysis:
+
+-   For acoustic data, detect and classify calls to produce timestamped event tables.
+-   Aggregate into time bins, calculating call rates, durations, spectral properties, or other biologically relevant measures.
+-   Create **time-lagged features** to capture potential delayed responses between species.
+-   Record metadata related to detection and observation conditions, such as recorder placement, background noise, distance, weather, or equipment differences.
+-   Preserve information needed to distinguish biological absence from non-detection.
+
+A well-structured dataset is essential for reproducible and interpretable results. In an SCM/DAG workflow, data processing should follow the causal question rather than precede it. For example, if the DAG distinguishes true vocal activity from detected vocal activity, then the dataset should preserve variables that help model detection rather than treating detections as if they were perfect observations.
+
+This step turns the verbal and graphical causal model into measurable variables, time windows, lag structures, and observation units.
+:::
+
+::: {.callout-note icon="false" collapse="true"}
+## **4. Test with Models**
+
+Statistical models quantify associations and, when assumptions are explicit and defensible, causal relationships while respecting ecological realism:
+
+-   Begin with exploratory analysis such as descriptive statistics, plots, cross-correlation, and temporal summaries to understand the data.
+-   Use hierarchical or time-series models such as GLMMs, GAMMs, Bayesian state-space models, or dynamic models to account for variation among sites, recorders, individuals, or time periods.
+-   Incorporate observation error where detection is imperfect.
+-   Use the DAG to identify the estimand and the appropriate adjustment strategy.
+-   Avoid conditioning on mediators or colliders unless the estimand specifically requires it.
+-   Examine biologically plausible lagged effects to assess temporal dynamics.
+
+This is where the SCM/DAG approach becomes operational. The DAG clarifies whether the model is estimating a total effect, direct effect, indirect effect, mediated pathway, predictive association, or descriptive pattern. For example:
+
+-   A **total effect** model should adjust for confounders but generally avoid adjusting for mediators.
+-   A **controlled direct effect** model may condition on mediators if the goal is to isolate a direct pathway.
+-   A **mediated effect** requires modeling the pathway through the mediator, not simply adding all variables to one model.
+-   A **detection-corrected effect** may require a model that separates the ecological state from the observation process.
+
+This step separates **ecological signal from observation noise** and separates causal questions from merely associational or predictive analyses.
+:::
+
+::: {.callout-note icon="false" collapse="true"}
+## **5. Ecological Validation**
+
+Predictions and causal estimates are only meaningful if validated against nature:
+
+-   Use independent field observations or ethical experiments to check model outputs.
+-   Compare patterns with known natural history to ensure plausibility.
+-   Perform internal validation through cross-validation, simulation, posterior predictive checks, sensitivity analysis, and residual diagnostics.
+-   Check whether the estimated effects are consistent with the causal pathways proposed in the DAG.
+-   Revisit the DAG when results are biologically implausible, inconsistent across scales, or sensitive to assumptions.
+
+Validation ensures that statistical associations and causal estimates reflect **true ecological processes** rather than artifacts of sampling, detection, model structure, or unmeasured confounding.
+
+In an SCM/DAG workflow, validation is not only about model fit. It is also about testing whether the assumed causal structure remains defensible.
+:::
+
+::: {.callout-note icon="false" collapse="true"}
+## **6. Deliver & Iterate**
+
+Finally, I communicate and refine findings to produce a deliverable, and then reiterate:
+
+-   Interpret model results in ecological terms, such as the probability change in bird song following a monkey call.
+-   Report uncertainty with credible intervals, confidence intervals, or prediction intervals.
+-   State the estimand clearly: descriptive, associational, predictive, total causal effect, direct effect, indirect effect, or mediated pathway.
+-   Report the DAG or causal assumptions alongside the model.
+-   Explain which assumptions are required for the interpretation.
+-   Iterate the model and study design based on validation feedback, refining features, lag windows, measured covariates, detection models, or DAG structure.
+
+This iterative approach produces **robust, biologically meaningful insights** that can guide conservation, management, or further experimentation.
+:::
+
+## **Example Application**
+
+Suppose we want to know whether monkey howls suppress bird song. Using the NESTED framework:
+
+1.  **Name the Alternative Hypotheses:** Identify plausible explanations and competing mechanisms, such as direct suppression, temporal avoidance, coincidental activity overlap, shared responses to time of day, habitat effects, or differences in detectability.
+2.  **Embed Natural History:** Set recorder spacing and bin sizes according to species’ movement behavior; ensure that recorder settings are appropriate for vocal behavior; identify likely time lags based on response time and hearing distance.
+3.  **Structured Data Collection and Processing:** Extract call counts and spectral features; create time-lagged predictors; preserve background noise, recorder location, and detection covariates.
+4.  **Test with Models:** Draw a DAG linking monkey howls, bird song, time of day, weather, habitat, background noise, and detection. Then fit hierarchical time-series models or detection-corrected models aligned with the target estimand.
+5.  **Ecological Validation:** Compare predictions with field playback experiments and direct observations; check whether responses occur at biologically plausible lags and distances.
+6.  **Deliver & Iterate:** Report effect sizes, such as the change in probability of bird song following monkey howls at specific time lags. State whether the result is descriptive, predictive, associational, or causal under the DAG assumptions. Refine the study design and DAG with new data.
+
+## **A Simple SCM/DAG Framing for the Example**
+
+For the monkey-howl example, a simplified causal structure might include:
+
+```{mermaid}
+flowchart LR
+  TOD["**Time of day**"]
+  HAB["**Habitat**"]
+  WEA["**Weather**"]
+  MON["**Monkey howls**"]
+  BIRD["**True bird song**"]
+  NOISE["**Background noise**"]
+  DET["**Detected bird song**"]
+
+  TOD --> MON
+  TOD --> BIRD
+  HAB --> MON
+  HAB --> BIRD
+  WEA --> MON
+  WEA --> BIRD
+  MON --> BIRD
+  NOISE --> DET
+  BIRD --> DET
+  MON --> NOISE
+
+  classDef measured fill:#cfe8ff,stroke:#5b8db8,stroke-width:3px,color:#000,font-size:17px;
+  classDef outcome fill:#d9f2d9,stroke:#5a9a5a,stroke-width:3px,color:#000,font-size:17px;
+  classDef obs fill:#f4b6b6,stroke:#b35c5c,stroke-width:3px,color:#000,font-size:17px;
+
+  class TOD,HAB,WEA,MON,NOISE measured;
+  class BIRD outcome;
+  class DET obs;
+```
+
+This DAG makes the target clearer. If the estimand is the **total causal effect of monkey howls on true bird song**, we would adjust for shared causes such as time of day, habitat, and weather, but we would avoid adjusting for variables downstream of monkey howls if they mediate part of the effect. If the observed response is detected bird song rather than true bird song, then the observation process must also be considered.
+
+## **Conclusion**
+
+The NESTED framework combines **statistical rigor with deep ecological understanding**, providing a repeatable approach for behavioral-ecology research. By explicitly **naming alternative hypotheses**, embedding natural history, and formalizing assumptions with **SCMs/DAGs**, models are not only statistically sound but also aligned with the ecological question being asked.
+
+The key benefit is that the analysis becomes estimand-aware. Instead of simply asking which predictors belong in a model, the NESTED framework asks:
+
+> What ecological process are we trying to understand, what causal assumptions are we making, and what quantity are we trying to estimate?
+
+That shift helps behavioral ecologists produce results that are clearer, more defensible, and more useful for understanding species interactions in the wild.

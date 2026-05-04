@@ -1,35 +1,10 @@
 [
   {
-    "listing": "/research/research.html",
+    "listing": "/guidebooks.html",
     "items": [
-      "/research/research_profiles/assessment_of_numerical_advantage_in_animal_contests.html",
-      "/research/research_profiles/bite_force_in_insectivorous_birds.html",
-      "/research/research_profiles/chronic_physiological_stress_along_precipitation_and_fragmentation_gradients.html",
-      "/research/research_profiles/context_dependent_information_transfer_in_birds.html",
-      "/research/research_profiles/eavesdropping_and_community_structuring_in_army_ant_following_birds.html",
-      "/research/research_profiles/experimental_tests_of_the_function_of_vocal_duetting_in_tropical_birds.html",
-      "/research/research_profiles/exploring_within_species_variation_in_suboscine_song.html",
-      "/research/research_profiles/fluctuating_natural_selection_on_nest_survival_of_tropical_birds.html",
-      "/research/research_profiles/importance_of_abiotic_and_biotic_factors_on_network_structure_in_novel_ecosystems.html",
-      "/research/research_profiles/plumas_precipitation_and_land_use_effects_on_multiple_avian_species.html",
-      "/research/research_profiles/quantification_of_signal_display_complexity_in_birds.html",
-      "/research/research_profiles/soundscapes_along_tropical_forest_gradients.html",
-      "/research/research_profiles/spatial_variation_in_complex_ecological_networks.html",
-      "/research/research_profiles/the_bci_effect_project_history_and_effects_of_extreme_predation_risk.html",
-      "/research/research_profiles/the_shape_of_natural_selection_of_nest_and_traits.html",
-      "/research/research_profiles/visual_assessment_of_risk_in_jumping_spiders.html",
-      "/research/research_profiles/vocal_correlates_of_fighting_ability_in_tropical_birds.html",
-      "/research/research_profiles/multidimensional_acoustic_interaction_networks_in_tropical_forests.html",
-      "/research/research_profiles/sonobeast_modular_acoustic_logger.html",
-      "/research/research_profiles/large_scale_experimental_tests_of_network_resilience_in_a_novel_ecosystem_in_hawaii.html",
-      "/research/research_profiles/visual_and_auditory_cues_of_predation_risk_in_army_ant_following_flocks.html",
-      "/research/research_profiles/olfactory_cues_for_detecting_army_ant_swarms_in_army_any_following_birds.html",
-      "/research/research_profiles/joint_resource_holding_potential_and_and_contest_assessment_strategies_in_tropical_birds.html",
-      "/research/research_profiles/modeling_behavioral_response_networks_as_large_language_models.html",
-      "/research/research_profiles/decisions_during_data_analysis_working_to_reduce_bias.html",
-      "/research/research_profiles/detection_of_neighbor_stranger_recognition_using_complex_interaction_networks.html",
-      "/research/research_profiles/individual_vocal_discrimination_in_non_oscine_birds.html",
-      "/research/research_profiles/statistical_epidemics_in_biology.html"
+      "/guidebooks/nested-problem-solving.html",
+      "/guidebooks/short-paper-writing.html",
+      "/guidebooks/NESTED_SCM_DAG_framework.html"
     ]
   },
   {
@@ -52,13 +27,6 @@
       "/listings/ind_profiles/alumni/Rebecca_Franke.html",
       "/listings/ind_profiles/alumni/Ryan_Nielsen.html",
       "/listings/ind_profiles/alumni/Thaddeus_Lipke.html"
-    ]
-  },
-  {
-    "listing": "/guidebooks.html",
-    "items": [
-      "/guidebooks/nested-problem-solving.html",
-      "/guidebooks/short-paper-writing.html"
     ]
   }
 ]

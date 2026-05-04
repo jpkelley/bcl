@@ -502,5 +502,14 @@
   },
   "new_research/decisions_during_data_analysis_working_to_reduce_bias_reformatted.qmd": {
     "decisions_during_data_analysis_working_to_reduce_bias_reformatted.html": "524789e7"
+  },
+  "guidebooks/NESTED_SCM_DAG_framework.qmd": {
+    "NESTED_SCM_DAG_framework.html": "96b81a3d"
+  },
+  "committee_request.qmd": {
+    "committee_request.html": "49c61d7b"
+  },
+  "research/ecology_bibliography.qmd": {
+    "ecology_bibliography.html": "59b576c1"
   }
 }
