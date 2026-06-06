@@ -5,7 +5,7 @@ image: "/images/profile_pics/michael_castano.jpg"
 research: "**Research subject:** Mechanisms of community structuring in tropical birds"
 location: "**Research location:** Panama"
 dates: "**Dates:** 2022-present"
-category: "Current"
+category: "Alumni"
 category_order: "2"
 format:
   html:
